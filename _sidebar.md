@@ -1,2 +1,2 @@
-- [Read Me](docs/README)
+- [Read Me](README)
 - [Git Study](second-page)
