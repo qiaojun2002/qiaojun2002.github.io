@@ -1,2 +1,1 @@
-
 - [Git Study](second-page)
