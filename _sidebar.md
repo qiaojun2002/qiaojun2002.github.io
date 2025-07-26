@@ -1,2 +1,2 @@
 - [Read Me](docs/README)
-- [Example Second Page](docs/second-page)
+- [Git Study](docs/second-page)
