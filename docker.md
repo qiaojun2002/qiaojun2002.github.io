@@ -280,7 +280,7 @@ docker pull mysql
 
 
 ```bash
-\[root@192 ~]# docker pull mysql
+[root@192 ~]# docker pull mysql
 
 Using default tag: latest  #如果不写tag，默认为latest
 
@@ -316,11 +316,11 @@ Status: Downloaded newer image for mysql:latest
 
 docker.io/library/mysql:latest  #真实地址
 
-\[root@192 ~]# docker pull mysql:5.7    #指定版本下载镜像
+[root@192 ~]# docker pull mysql:5.7    #指定版本下载镜像
 
-\[root@192 ~]# docker rmi c0cdc95609f1  #删除镜像
+[root@192 ~]# docker rmi c0cdc95609f1  #删除镜像
 
-\[root@192 ~]# docker rmi -f $(docker images -aq) #删除全部的镜像
+[root@192 ~]# docker rmi -f $(docker images -aq) #删除全部的镜像
 
 ```
 
@@ -339,7 +339,7 @@ docker.io/library/mysql:latest  #真实地址
 
 
 ```bash
-docker run \[可选参数] image
+docker run [可选参数] image
 
 #参数说明
 
@@ -366,9 +366,9 @@ docker run \[可选参数] image
 ```BASH
 #启动并进入容器
 
-\[root@192 ~]# docker run -it centos /bin/bash
+[root@192 ~]# docker run -it centos /bin/bash
 
-\[root@83929b2c631e /]# ls
+[root@83929b2c631e /]# ls
 
 bin  etc   lib    lost+found  mnt  proc  run   srv  tmp  var
 
@@ -376,11 +376,11 @@ dev  home  lib64  media       opt  root  sbin  sys  usr
 
 #退出容器
 
-\[root@83929b2c631e /]# exit
+[root@83929b2c631e /]# exit
 
 exit
 
-\[root@192 ~]#
+[root@192 ~]#
 
 ```
 
@@ -401,11 +401,11 @@ exit
 
 -q    #只显示容器编号
 
-\[root@192 ~]# docker ps
+[root@192 ~]# docker ps
 
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
-\[root@192 ~]# docker ps -a
+[root@192 ~]# docker ps -a
 
 CONTAINER ID   IMAGE         COMMAND       CREATED          STATUS                          PORTS     NAMES
 
@@ -474,11 +474,11 @@ docker kill  容器ID
 
 
 ```bash
-\[root@192 ~]# docker run -d centos
+[root@192 ~]# docker run -d centos
 
 567e495b338c36ee7e06c5bce654f3a27e79dbbd0d5de1e0559d49a5b488dde0
 
-\[root@192 ~]# docker ps
+[root@192 ~]# docker ps
 
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
@@ -495,13 +495,13 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```bash
 #	编写一段脚本
 
-\[root@192 ~]# docker run -d centos /bin/sh -c "while true;do echo qj;sleep 2;done"  
+[root@192 ~]# docker run -d centos /bin/sh -c "while true;do echo qj;sleep 2;done"  
 
-\[root@192 ~]# docker ps
+[root@192 ~]# docker ps
 
 #显示日志
 
-\[root@192 ~]# docker logs -ft --tail 10 f4620a87216a
+[root@192 ~]# docker logs -ft --tail 10 f4620a87216a
 
 ```
 
@@ -512,7 +512,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 ```BASH
-\[root@192 ~]# docker top 4589010de709
+[root@192 ~]# docker top 4589010de709
 
 UID                 PID                 PPID                C                   STIME     
 
@@ -527,7 +527,7 @@ root                9683                9663                0                   
 
 
 ```BASH
-\[root@192 ~]# docker inspect 4589010de709
+[root@192 ~]# docker inspect 4589010de709
 
 ```
 
@@ -538,21 +538,21 @@ root                9683                9663                0                   
 
 
 ```bash
-\[root@192 ~]# docker ps
+[root@192 ~]# docker ps
 
 CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS     NAMES
 
 4589010de709   centos    "/bin/sh -c 'while t…"   8 minutes ago   Up 8 minutes             festive\_gauss
 
-\[root@192 ~]# docker exec -it 4589010de709 /bin/bash
+[root@192 ~]# docker exec -it 4589010de709 /bin/bash
 
-\[root@4589010de709 /]# ls
+[root@4589010de709 /]# ls
 
 bin  etc   lib    lost+found  mnt  proc  run   srv  tmp  var
 
 dev  home  lib64  media       opt  root  sbin  sys  usr
 
-\[root@4589010de709 /]# ps -ef
+[root@4589010de709 /]# ps -ef
 
 UID         PID   PPID  C STIME TTY          TIME CMD
 
@@ -568,7 +568,7 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 
 
 ```BASH
-\[root@192 ~]#docker attach 4589010de709
+[root@192 ~]#docker attach 4589010de709
 #docker exec  打开一个新的终端
 
 #attach       进入正在执行的终端
@@ -584,7 +584,7 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 ```BASH
 #从容器里拷贝文件到宿主机上
 
-\[root@192 ~]# docker cp 4589010de709:/11 /home
+[root@192 ~]# docker cp 4589010de709:/11 /home
 
 ```
 
@@ -613,7 +613,7 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 
 
 ```bash
-\[root@192 home]# docker images
+[root@192 home]# docker images
 
 REPOSITORY    TAG       IMAGE ID       CREATED        SIZE
 
@@ -629,13 +629,13 @@ centos        latest    300e315adb2f   5 months ago   209MB
 
 # -p 宿主机端口：容器内端口
 
-\[root@192 home]# docker run -d --name nginx02 -p 3344:80 nginx
+[root@192 home]# docker run -d --name nginx02 -p 3344:80 nginx
 
 da43321a8c51f576eac48b10c1e36de09abb9db45327a4b751e9e5ed4e4636f0
 
 #test
 
-\[root@192 home]# curl localhost:3344
+[root@192 home]# curl localhost:3344
 
 <!DOCTYPE html>
 
@@ -687,7 +687,7 @@ Commercial support is available at
 
 </html>
 
-\[root@192 home]# docker ps
+[root@192 home]# docker ps
 
 CONTAINER ID   IMAGE     COMMAND                  CREATED             STATUS             PORTS                                   NAMES
 
@@ -695,7 +695,7 @@ da43321a8c51   nginx     "/docker-entrypoint.…"   6 minutes ago       Up 6 min
 
 4589010de709   centos    "/bin/sh -c 'while t…"   About an hour ago   Up About an hour                                           festive\_gauss
 
-\[root@192 home]# docker exec -it da43321a8c51 /bin/bash
+[root@192 home]# docker exec -it da43321a8c51 /bin/bash
 
 root@da43321a8c51:/# whereis nginx
 
@@ -749,9 +749,9 @@ docker exec -it 3ad3fdd137ea /bin/bash
 
 3，ES的数据必须放在安全目录！挂载
 
-\[root@192 home]# docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e ES\_JAVA\_OPTS="-Xms64m -Xmx512m" elasticsearch:7.6.2 
+[root@192 home]# docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e ES\_JAVA\_OPTS="-Xms64m -Xmx512m" elasticsearch:7.6.2 
 
-\[root@192 home]# curl localhost:9200
+[root@192 home]# curl localhost:9200
 
 {
 
@@ -829,7 +829,7 @@ FROM redis
 
 COPY redis.conf /usr/local/etc/redis/redis.conf
 
-CMD \[ "redis-server", "/usr/local/etc/redis/redis.conf" ]
+CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
 
 ```
 
@@ -1019,7 +1019,7 @@ ENV    #设置环境变量  -e
 ```BASH
 # 编写dockerfile文件
 
-\[root@localhost dockerfile]# cat mydockerfile
+[root@localhost dockerfile]# cat mydockerfile
 
 FROM centos
 
@@ -1043,7 +1043,7 @@ CMD /bin/bash
 
 # 构建镜像
 
-\[root@localhost dockerfile]# docker build -f mydockerfile -t mycentos:0.1 .
+[root@localhost dockerfile]# docker build -f mydockerfile -t mycentos:0.1 .
 
 Sending build context to Docker daemon  2.048kB
 
@@ -1309,13 +1309,13 @@ Successfully tagged mycentos:0.1
 
 #test
 
-\[root@localhost dockerfile]# docker run -it mycentos:0.1
+[root@localhost dockerfile]# docker run -it mycentos:0.1
 
-\[root@3d6c237f79da local]# pwd
+[root@3d6c237f79da local]# pwd
 
 /usr/local
 
-\[root@3d6c237f79da local]# ifconfig
+[root@3d6c237f79da local]# ifconfig
 
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
@@ -1347,15 +1347,15 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 #镜像的构建步骤
 
-\[root@localhost dockerfile]# docker history b6df0e7c5686
+[root@localhost dockerfile]# docker history b6df0e7c5686
 
 IMAGE          CREATED         CREATED BY                                      S                                                                             IZE      COMMENT
 
-b6df0e7c5686   7 minutes ago   /bin/sh -c #(nop)  CMD \["/bin/sh" "-c" "/bin…   0                                                                             B
+b6df0e7c5686   7 minutes ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "/bin…   0                                                                             B
 
-6251a37b03da   7 minutes ago   /bin/sh -c #(nop)  CMD \["/bin/sh" "-c" "echo…   0                                                                             B
+6251a37b03da   7 minutes ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "echo…   0                                                                             B
 
-510a6a5e710f   7 minutes ago   /bin/sh -c #(nop)  CMD \["/bin/sh" "-c" "echo…   0                                                                             B
+510a6a5e710f   7 minutes ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "echo…   0                                                                             B
 
 fdc9eb2e97df   7 minutes ago   /bin/sh -c #(nop)  EXPOSE 80                    0                                                                             B
 
@@ -1369,7 +1369,7 @@ a99d170ce4a1   8 minutes ago   /bin/sh -c #(nop) WORKDIR /usr/local            0
 
 06cb0004f73f   8 minutes ago   /bin/sh -c #(nop)  MAINTAINER qj<qiaojun2002…   0                                                                             B
 
-300e315adb2f   5 months ago    /bin/sh -c #(nop)  CMD \["/bin/bash"]            0                                                                             B
+300e315adb2f   5 months ago    /bin/sh -c #(nop)  CMD ["/bin/bash"]            0                                                                             B
 
 <missing>      5 months ago    /bin/sh -c #(nop)  LABEL org.label-schema.sc…   0                                                                             B
 
@@ -1394,13 +1394,13 @@ a99d170ce4a1   8 minutes ago   /bin/sh -c #(nop) WORKDIR /usr/local            0
 ```BASH
 #CMD实例
 
-\[root@localhost dockerfile]# cat docker-cmd-test
+[root@localhost dockerfile]# cat docker-cmd-test
 
 FROM centos
 
-CMD \["ls","-a"]
+CMD ["ls","-a"]
 
-\[root@localhost dockerfile]# docker run 8146ffc523e2
+[root@localhost dockerfile]# docker run 8146ffc523e2
 .
 ..
 .dockerenv
@@ -1423,11 +1423,11 @@ sys
 tmp
 usr
 var
-\[root@localhost dockerfile]# docker run 8146ffc523e2 -l
+[root@localhost dockerfile]# docker run 8146ffc523e2 -l
 
 docker: Error response from daemon: OCI runtime create failed: container\_linux.go:367: starting container process caused: exec: "-l": executable file not found in $PATH: unknown.
 
-ERRO\[0000] error waiting for container: context canceled
+ERRO[0000] error waiting for container: context canceled
 
 ```
 
@@ -1440,13 +1440,13 @@ ERRO\[0000] error waiting for container: context canceled
 ```BASH
 #ENTRYPOINT实例
 
-\[root@localhost dockerfile]# cat docker-entrypoint-test
+[root@localhost dockerfile]# cat docker-entrypoint-test
 
 FROM centos
 
-ENTRYPOINT \["ls","-a"]
+ENTRYPOINT ["ls","-a"]
 
-\[root@localhost dockerfile]# docker run 73bc5d2e1d00
+[root@localhost dockerfile]# docker run 73bc5d2e1d00
 
 .
 
@@ -1492,7 +1492,7 @@ usr
 
 var
 
-\[root@localhost dockerfile]# docker run 73bc5d2e1d00 -l
+[root@localhost dockerfile]# docker run 73bc5d2e1d00 -l
 
 total 0
 
@@ -1556,7 +1556,7 @@ drwxr-xr-x.  20 root root 262 Dec  4 17:37 var
 
 
 ```BASH
-\[root@localhost ~]# docker network ls
+[root@localhost ~]# docker network ls
 
 NETWORK ID     NAME      DRIVER    SCOPE
 
@@ -1612,11 +1612,11 @@ docker run -d -P --net bridge --name tomcat01
 
 # --gateway 192.168.0.1
 
-\[root@localhost ~]# docker network create --driver bridge --subnet 192.168.0.0/16 --gateway 192.168.0.1 mynet
+[root@localhost ~]# docker network create --driver bridge --subnet 192.168.0.0/16 --gateway 192.168.0.1 mynet
 
 7ea68fbf783af33e0f2cfa5203f17a8322f2e70d143e5d670fa57f933fae3ec0
 
-\[root@localhost ~]# docker network ls
+[root@localhost ~]# docker network ls
 
 NETWORK ID     NAME      DRIVER    SCOPE
 
@@ -1630,9 +1630,9 @@ a8822654faf0   none      null      local
 
 #查看自定义网络
 
-\[root@localhost ~]# docker network inspect 7ea68fbf783a
+[root@localhost ~]# docker network inspect 7ea68fbf783a
 
-\[
+[
    {
 
        "Name": "mynet",
@@ -1653,7 +1653,7 @@ a8822654faf0   none      null      local
 
            "Options": {},
 
-           "Config": \[
+           "Config": [
 
                {
 
@@ -1692,13 +1692,13 @@ a8822654faf0   none      null      local
 ]
 #自定义网络添加容器
 
-\[root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
+[root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
 
-\[root@localhost ~]# docker run -d -it -P --name centos-net-04 --net mynet centos
+[root@localhost ~]# docker run -d -it -P --name centos-net-04 --net mynet centos
 
 #测试ping命令，现在不使用--link，也可以ping名字了
 
-\[root@localhost ~]# docker exec -it centos-net-04 ping centos-net-03
+[root@localhost ~]# docker exec -it centos-net-04 ping centos-net-03
 
 PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
 
@@ -1722,27 +1722,27 @@ PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
 
 
 ```bash
-\[root@localhost ~]# docker network connect --help
-Usage:  docker network connect \[OPTIONS] NETWORK CONTAINER
+[root@localhost ~]# docker network connect --help
+Usage:  docker network connect [OPTIONS] NETWORK CONTAINER
 Connect a container to a network
 
 #默认docker0添加容器
-\[root@localhost ~]# docker run -d -it -P --name centos-01 centos               
-\[root@localhost ~]# docker run -d -it -P --name centos-02 centos
+[root@localhost ~]# docker run -d -it -P --name centos-01 centos               
+[root@localhost ~]# docker run -d -it -P --name centos-02 centos
 
 #自定义网络添加容器
-\[root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
-\[root@localhost ~]# docker run -d -it -P --name centos-net-04 --net mynet centos
+[root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
+[root@localhost ~]# docker run -d -it -P --name centos-net-04 --net mynet centos
 
 #docker0容器无法访问mynet网络下容器
-\[root@localhost ~]# docker exec -it centos-01 ping centos-net-03
+[root@localhost ~]# docker exec -it centos-01 ping centos-net-03
 ping: centos-net-03: Name or service not known
 
 #测试打通tomcat01 - mynet
-\[root@localhost ~]# docker network connect mynet centos-01
+[root@localhost ~]# docker network connect mynet centos-01
 
 #再次测试，docker0容器可以访问mynet网络下容器
-\[root@localhost ~]# docker exec -it centos-01 ping centos-net-03
+[root@localhost ~]# docker exec -it centos-01 ping centos-net-03
 PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
 64 bytes from centos-net-03.mynet (192.168.0.2): icmp\_seq=1 ttl=64 time=0.133 ms
 64 bytes from centos-net-03.mynet (192.168.0.2): icmp\_seq=2 ttl=64 time=0.139 ms
@@ -1767,11 +1767,11 @@ PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
 
 
 
-Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration， To learn more about all the features of Compose, see \[the list of features](https://docs.docker.com/compose/#features).
+Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration， To learn more about all the features of Compose, see [the list of features](https://docs.docker.com/compose/#features).
 
 
 
-Compose works in all environments: production, staging, development, testing, as well as CI workflows. You can learn more about each case in \[Common Use Cases](https://docs.docker.com/compose/#common-use-cases).
+Compose works in all environments: production, staging, development, testing, as well as CI workflows. You can learn more about each case in [Common Use Cases](https://docs.docker.com/compose/#common-use-cases).
 
 
 
@@ -1783,7 +1783,7 @@ Using Compose is basically a three-step process:
 
 2\. Define the services that make up your app in `docker-compose.yml` so they can be run together in an isolated environment.
 
-3\. Run `docker compose up` and the \[Docker compose command](https://docs.docker.com/compose/cli-command/) starts and runs your entire app. You can alternatively run `docker-compose up` using the docker-compose binary.
+3\. Run `docker compose up` and the [Docker compose command](https://docs.docker.com/compose/cli-command/) starts and runs your entire app. You can alternatively run `docker-compose up` using the docker-compose binary.
 
 
 
