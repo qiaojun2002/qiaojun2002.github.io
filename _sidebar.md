@@ -1,4 +1,4 @@
-- [Git Study](second-page)
+- [Git Study](git)
 - [Docker Study](docker)
 - [Kubernate Study](kubernate)
 - [Java Thread Study](thread)
