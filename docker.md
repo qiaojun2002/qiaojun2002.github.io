@@ -1,3 +1,5 @@
+# 导论
+
 > docker 学习
 
 
@@ -30,28 +32,17 @@
 
 
 
-\## Docker历史
+## Docker历史
 
 
 
 2010年，dotcloud公司做pass云计算服务，LXC有关的容器技术，他们讲自己的技术命名为docker！
 
-
-
 2013年，dotcloud公司开源docker后，越来越多人关注，火了。每个月更新一个版本。
-
-
 
 2014年4月9日，docker1.0发布。
 
-
-
 为什么这么火？docker十分轻巧！
-
-
-
-
-
 
 
 > 和vm对比
@@ -60,14 +51,7 @@
 
 vm，centos原生镜像（一个电脑），隔离需要开启多个虚拟机！ 几个g， 几分钟
 
-
-
 docker隔离，镜像（最核心的环境 4m + jdk +mysql） 十分的小巧， 几个m，几秒钟
-
-
-
-
-
 
 
 > 参考
@@ -76,21 +60,12 @@ docker隔离，镜像（最核心的环境 4m + jdk +mysql） 十分的小巧，
 
 \[官网](https://www.docker.com/)
 
-
-
 \[文档](https://docs.docker.com/)   docker的文档超级详细
-
-
 
 \[仓库](https://hub.docker.com/)
 
 
-
-
-
-
-
-\## Docker能干什么
+## Docker能干什么
 
 
 
@@ -144,11 +119,11 @@ Docker是内核级的虚拟化，可以在一个物理机上运行很多的容�
 
 
 
-\## Install
+## 安装
 
 
 
-\### 基本组成
+### 基本组成
 
 
 
@@ -166,7 +141,7 @@ Docker是内核级的虚拟化，可以在一个物理机上运行很多的容�
 
 
 
-\### 安装步骤
+### 安装步骤
 
 
 
@@ -192,13 +167,13 @@ Docker是内核级的虚拟化，可以在一个物理机上运行很多的容�
 
 
 
-\#2.需要的安装包
+#2.需要的安装包
 
 yum install -y yum-utils
 
 
 
-\#3.设置镜像仓库
+#3.设置镜像仓库
 
 sudo yum-config-manager \\
 
@@ -208,37 +183,37 @@ sudo yum-config-manager \\
 
 
 
-\#更新索引
+#更新索引
 
 yum makecache fast
 
 
 
-\#4.安装docker
+#4.安装docker
 
 yum install docker-ce docker-ce-cli containerd.io
 
 
 
-\#5.启动
+#5.启动
 
 systemctl start docker
 
 
 
-\#6.版本
+#6.版本
 
 docker version
 
 
 
-\#7.测试
+#7.测试
 
 docker run hello-world
 
 
 
-\#8. 查看hello-world
+#8. 查看hello-world
 
 docker images
 
@@ -272,11 +247,11 @@ rm -rf /var/lib/containerd
 
 
 
-\## Dockercommand line
+## Dockercommand line
 
 
 
-\### 帮助命令
+### 帮助命令
 
 
 
@@ -300,7 +275,7 @@ docker 命令 --help
 
 
 
-\### 镜像命令
+### 镜像命令
 
 
 
@@ -382,11 +357,11 @@ docker.io/library/mysql:latest  #真实地址
 
 
 
-\### 容器命令
+### 容器命令
 
 
 
-\#### \*\*新建容器并启动\*\*
+#### \*\*新建容器并启动\*\*
 
 
 
@@ -396,7 +371,7 @@ docker run \[可选参数] image
 
 
 
-\#参数说明
+#参数说明
 
 --name=“Name” 起个名字，区分容器
 
@@ -420,7 +395,7 @@ docker run \[可选参数] image
 
 ```BASH
 
-\#启动并进入容器
+#启动并进入容器
 
 \[root@192 ~]# docker run -it centos /bin/bash
 
@@ -430,7 +405,7 @@ bin  etc   lib    lost+found  mnt  proc  run   srv  tmp  var
 
 dev  home  lib64  media       opt  root  sbin  sys  usr
 
-\#退出容器
+#退出容器
 
 \[root@83929b2c631e /]# exit
 
@@ -444,13 +419,13 @@ exit
 
 
 
-\#### \*\*列出所有的容器\*\*
+#### \*\*列出所有的容器\*\*
 
 
 
 ```BASH
 
-\#docker ps 命令
+#docker ps 命令
 
 &nbsp;     #列出当前正在运行的容器
 
@@ -480,7 +455,7 @@ eace531a4318   hello-world   "/hello"      45 minutes ago   Exited (0) 45 minute
 
 
 
-\#### \*\*退出容器\*\*
+#### \*\*退出容器\*\*
 
 
 
@@ -494,7 +469,7 @@ CTRL + P + Q  #退出容器不停止
 
 
 
-\#### \*\*删除容器\*\*
+#### \*\*删除容器\*\*
 
 
 
@@ -510,7 +485,7 @@ docker ps -a -q|xargs docker rm
 
 
 
-\#### \*\*启动和停止容器\*\*
+#### \*\*启动和停止容器\*\*
 
 
 
@@ -532,11 +507,11 @@ docker kill  容器ID
 
 
 
-\### 常用重要命令
+### 常用重要命令
 
 
 
-\#### \*\*后台启动容器\*\*
+#### \*\*后台启动容器\*\*
 
 
 
@@ -552,19 +527,19 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 
-\#常见的坑，docker容器使用后台运行，就必须有一个前台进程，docker发现没有前台应用，就会自动停止。
+#常见的坑，docker容器使用后台运行，就必须有一个前台进程，docker发现没有前台应用，就会自动停止。
 
 ```
 
 
 
-\#### \*\*查看日志\*\*
+#### \*\*查看日志\*\*
 
 
 
 ```bash
 
-\#	编写一段脚本
+#	编写一段脚本
 
 \[root@192 ~]# docker run -d centos /bin/sh -c "while true;do echo qj;sleep 2;done"  
 
@@ -574,7 +549,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 
-\#显示日志
+#显示日志
 
 \[root@192 ~]# docker logs -ft --tail 10 f4620a87216a
 
@@ -582,7 +557,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 
-\#### \*\*查看容器里进程信息\*\*
+#### \*\*查看容器里进程信息\*\*
 
 
 
@@ -598,7 +573,7 @@ root                9683                9663                0                   
 
 
 
-\#### \*\*查看镜像元数据\*\*
+#### \*\*查看镜像元数据\*\*
 
 
 
@@ -612,7 +587,7 @@ root                9683                9663                0                   
 
 
 
-\#### \*\*进入容器\*\*
+#### \*\*进入容器\*\*
 
 
 
@@ -656,21 +631,21 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 
 
 
-\#docker exec  打开一个新的终端
+#docker exec  打开一个新的终端
 
-\#attach       进入正在执行的终端
+#attach       进入正在执行的终端
 
 ```
 
 
 
-\#### 拷贝文件
+#### 拷贝文件
 
 
 
 ```BASH
 
-\#从容器里拷贝文件到宿主机上
+#从容器里拷贝文件到宿主机上
 
 \[root@192 ~]# docker cp 4589010de709:/11 /home
 
@@ -682,11 +657,11 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 
 
 
-\## 作业练习
+## 作业练习
 
 
 
-\### docker 安装Nginx
+### docker 安装Nginx
 
 
 
@@ -714,11 +689,11 @@ centos        latest    300e315adb2f   5 months ago   209MB
 
 
 
-\# -d 后台运行
+# -d 后台运行
 
-\# --name 起名字
+# --name 起名字
 
-\# -p 宿主机端口：容器内端口
+# -p 宿主机端口：容器内端口
 
 \[root@192 home]# docker run -d --name nginx02 -p 3344:80 nginx
 
@@ -726,7 +701,7 @@ da43321a8c51f576eac48b10c1e36de09abb9db45327a4b751e9e5ed4e4636f0
 
 
 
-\#test
+#test
 
 \[root@192 home]# curl localhost:3344
 
@@ -808,7 +783,7 @@ nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx
 
 
 
-\### docker安装Tomcat
+### docker安装Tomcat
 
 
 
@@ -834,7 +809,7 @@ docker exec -it 3ad3fdd137ea /bin/bash
 
 
 
-\### docker安装ES
+### docker安装ES
 
 
 
@@ -894,25 +869,25 @@ docker exec -it 3ad3fdd137ea /bin/bash
 
 
 
-\### docker安装redis
+### docker安装redis
 
 
 
 ```bash
 
-\#start a redis instance
+#start a redis instance
 
 docker run --name some-redis -d redis
 
 
 
-\#start with persistent storage
+#start with persistent storage
 
 docker run --name some-redis -d redis redis-server --appendonly yes
 
 
 
-\#connecting via redis-cli
+#connecting via redis-cli
 
 docker exec -it 9d9635d22920 redis-cli
 
@@ -972,11 +947,11 @@ The mapped directory should be writable, as depending on the configuration and m
 
 
 
-\## 容器数据卷
+## 容器数据卷
 
 
 
-\### 什么是数据卷
+### 什么是数据卷
 
 
 
@@ -1004,7 +979,7 @@ The mapped directory should be writable, as depending on the configuration and m
 
 
 
-\### 使用数据卷
+### 使用数据卷
 
 
 
@@ -1014,11 +989,11 @@ The mapped directory should be writable, as depending on the configuration and m
 
 
 
-\### 实战：mysql测试
+### 实战：mysql测试
 
 
 
-\### 初识dockerfile
+### 初识dockerfile
 
 
 
@@ -1028,7 +1003,7 @@ dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的
 
 
 
-\### 数据卷容器
+### 数据卷容器
 
 
 
@@ -1038,11 +1013,11 @@ dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的
 
 
 
-\## dockerfile
+## dockerfile
 
 
 
-\### 介绍
+### 介绍
 
 
 
@@ -1068,7 +1043,7 @@ dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的
 
 
 
-\### 构建过程
+### 构建过程
 
 
 
@@ -1104,7 +1079,7 @@ dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的
 
 
 
-\### 指令
+### 指令
 
 
 
@@ -1138,7 +1113,7 @@ ENV    #设置环境变量  -e
 
 
 
-\### 实战测试 centos
+### 实战测试 centos
 
 
 
@@ -1148,7 +1123,7 @@ ENV    #设置环境变量  -e
 
 ```BASH
 
-\# 编写dockerfile文件
+# 编写dockerfile文件
 
 \[root@localhost dockerfile]# cat mydockerfile
 
@@ -1184,7 +1159,7 @@ CMD /bin/bash
 
 
 
-\# 构建镜像
+# 构建镜像
 
 \[root@localhost dockerfile]# docker build -f mydockerfile -t mycentos:0.1 .
 
@@ -1468,7 +1443,7 @@ Successfully tagged mycentos:0.1
 
 
 
-\#test
+#test
 
 \[root@localhost dockerfile]# docker run -it mycentos:0.1
 
@@ -1510,7 +1485,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 
 
-\#镜像的构建步骤
+#镜像的构建步骤
 
 \[root@localhost dockerfile]# docker history b6df0e7c5686
 
@@ -1558,7 +1533,7 @@ a99d170ce4a1   8 minutes ago   /bin/sh -c #(nop) WORKDIR /usr/local            0
 
 ```BASH
 
-\#CMD实例
+#CMD实例
 
 \[root@localhost dockerfile]# cat docker-cmd-test
 
@@ -1634,7 +1609,7 @@ ERRO\[0000] error waiting for container: context canceled
 
 ```BASH
 
-\#ENTRYPOINT实例
+#ENTRYPOINT实例
 
 \[root@localhost dockerfile]# cat docker-entrypoint-test
 
@@ -1748,11 +1723,11 @@ drwxr-xr-x.  20 root root 262 Dec  4 17:37 var
 
 
 
-\## docker网络
+## docker网络
 
 
 
-\### 自定义网络
+### 自定义网络
 
 
 
@@ -1808,17 +1783,17 @@ docker run -d -P --net bridge --name tomcat01
 
 
 
-\#docker0 特点： 默认，域名不能访问  --link可以打通
+#docker0 特点： 默认，域名不能访问  --link可以打通
 
 
 
-\#自定义网络
+#自定义网络
 
-\# --driver bridge
+# --driver bridge
 
-\# --subnet 192.168.0.0
+# --subnet 192.168.0.0
 
-\# --gateway 192.168.0.1
+# --gateway 192.168.0.1
 
 \[root@localhost ~]# docker network create --driver bridge --subnet 192.168.0.0/16 --gateway 192.168.0.1 mynet
 
@@ -1838,7 +1813,7 @@ a8822654faf0   none      null      local
 
 
 
-\#查看自定义网络
+#查看自定义网络
 
 \[root@localhost ~]# docker network inspect 7ea68fbf783a
 
@@ -1908,7 +1883,7 @@ a8822654faf0   none      null      local
 
 
 
-\#自定义网络添加容器
+#自定义网络添加容器
 
 \[root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
 
@@ -1916,7 +1891,7 @@ a8822654faf0   none      null      local
 
 
 
-\#测试ping命令，现在不使用--link，也可以ping名字了
+#测试ping命令，现在不使用--link，也可以ping名字了
 
 \[root@localhost ~]# docker exec -it centos-net-04 ping centos-net-03
 
@@ -1938,20 +1913,7 @@ PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
 
 
 
-
-
-
-
-\### 网络连通
-
-
-
-
-
-
-
-
-
+### 网络连通
 
 
 ```bash
@@ -1964,7 +1926,7 @@ Connect a container to a network
 
 
 
-\#默认docker0添加容器
+#默认docker0添加容器
 
 \[root@localhost ~]# docker run -d -it -P --name centos-01 centos               
 
@@ -1972,7 +1934,7 @@ Connect a container to a network
 
 
 
-\#自定义网络添加容器
+#自定义网络添加容器
 
 \[root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
 
@@ -1980,7 +1942,7 @@ Connect a container to a network
 
 
 
-\#docker0容器无法访问mynet网络下容器
+#docker0容器无法访问mynet网络下容器
 
 \[root@localhost ~]# docker exec -it centos-01 ping centos-net-03
 
@@ -1990,13 +1952,13 @@ ping: centos-net-03: Name or service not known
 
 
 
-\#测试打通tomcat01 - mynet
+#测试打通tomcat01 - mynet
 
 \[root@localhost ~]# docker network connect mynet centos-01
 
 
 
-\#再次测试，docker0容器可以访问mynet网络下容器
+#再次测试，docker0容器可以访问mynet网络下容器
 
 \[root@localhost ~]# docker exec -it centos-01 ping centos-net-03
 
@@ -2016,7 +1978,7 @@ PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
 
 
 
-\## docker compose
+## docker compose
 
 
 
@@ -2058,7 +2020,7 @@ Compose：重要概念
 
 
 
-\### 安装
+### 安装
 
 
 
@@ -2078,7 +2040,7 @@ chmod +x /usr/local/bin/docker-compose
 
 
 
-\### 快速开始
+### 快速开始
 
 
 
