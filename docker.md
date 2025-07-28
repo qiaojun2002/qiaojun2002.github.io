@@ -121,11 +121,7 @@ Docker是内核级的虚拟化，可以在一个物理机上运行很多的容�
 
 ## 安装
 
-
-
 ### 基本组成
-
-
 
 
 
@@ -143,27 +139,23 @@ Docker是内核级的虚拟化，可以在一个物理机上运行很多的容�
 
 ### 安装步骤
 
+```
+#1，卸载旧的
+sudo yum remove docker \\
 
+                 docker-client \\
 
-```bash
+                 docker-client-latest \\
 
-&nbsp;#1，卸载旧的
+                 docker-common \\
 
-&nbsp;sudo yum remove docker \\
+                 docker-latest \\
 
-&nbsp;                 docker-client \\
+                 docker-latest-logrotate \\
 
-&nbsp;                 docker-client-latest \\
+                 docker-logrotate \\
 
-&nbsp;                 docker-common \\
-
-&nbsp;                 docker-latest \\
-
-&nbsp;                 docker-latest-logrotate \\
-
-&nbsp;                 docker-logrotate \\
-
-&nbsp;                 docker-engine
+                 docker-engine
 
 
 
@@ -177,9 +169,9 @@ yum install -y yum-utils
 
 sudo yum-config-manager \\
 
-&nbsp;   --add-repo \\
+   --add-repo \\
 
-&nbsp;   http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+   http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 
 
 
@@ -230,7 +222,6 @@ docker images
 
 
 ```bash
-
 yum remove docker-ce docker-ce-cli containerd.io
 
 
@@ -247,16 +238,12 @@ rm -rf /var/lib/containerd
 
 
 
-## Dockercommand line
-
-
+## Command line
 
 ### 帮助命令
 
 
-
 ```hash
-
 docker version  #显示版本信息
 
 docker info     #
@@ -280,29 +267,20 @@ docker 命令 --help
 
 
 ```shell
-
 docker images
 
 docker search mysql
 
-
-
 docker search mysql --filter=STARS=3000
-
-
 
 docker pull --help
 
-
-
 docker pull mysql
-
 ```
 
 
 
 ```bash
-
 \[root@192 ~]# docker pull mysql
 
 Using default tag: latest  #如果不写tag，默认为latest
@@ -339,11 +317,7 @@ Status: Downloaded newer image for mysql:latest
 
 docker.io/library/mysql:latest  #真实地址
 
-
-
 \[root@192 ~]# docker pull mysql:5.7    #指定版本下载镜像
-
-
 
 \[root@192 ~]# docker rmi c0cdc95609f1  #删除镜像
 
@@ -366,10 +340,7 @@ docker.io/library/mysql:latest  #真实地址
 
 
 ```bash
-
 docker run \[可选参数] image
-
-
 
 #参数说明
 
@@ -381,11 +352,11 @@ docker run \[可选参数] image
 
 -p            指定容器端口
 
-&nbsp;	-p ip：主机端口：容器端口
+	-p ip：主机端口：容器端口
 
-&nbsp;	-p 主机端口：容器端口
+	-p 主机端口：容器端口
 
-&nbsp;	-p 容器端口
+	-p 容器端口
 
 -P            随机指定端口
 
@@ -394,7 +365,6 @@ docker run \[可选参数] image
 
 
 ```BASH
-
 #启动并进入容器
 
 \[root@192 ~]# docker run -it centos /bin/bash
@@ -413,8 +383,6 @@ exit
 
 \[root@192 ~]#
 
-
-
 ```
 
 
@@ -424,18 +392,15 @@ exit
 
 
 ```BASH
-
 #docker ps 命令
 
-&nbsp;     #列出当前正在运行的容器
+     #列出当前正在运行的容器
 
 -a    #列出当前正在运行的容器+ 历史运行的容器
 
 -n=？ #列出最近创建的容器
 
 -q    #只显示容器编号
-
-
 
 \[root@192 ~]# docker ps
 
@@ -448,9 +413,6 @@ CONTAINER ID   IMAGE         COMMAND       CREATED          STATUS              
 83929b2c631e   centos        "/bin/bash"   3 minutes ago    Exited (0) About a minute ago             elegant\_blackburn
 
 eace531a4318   hello-world   "/hello"      45 minutes ago   Exited (0) 45 minutes ago                 determined\_matsumoto
-
-
-
 ```
 
 
@@ -460,7 +422,6 @@ eace531a4318   hello-world   "/hello"      45 minutes ago   Exited (0) 45 minute
 
 
 ```
-
 exit          #退出容器并停止
 
 CTRL + P + Q  #退出容器不停止
@@ -474,7 +435,6 @@ CTRL + P + Q  #退出容器不停止
 
 
 ```
-
 docker rm 容器id                
 
 docker rm -f $(docker ps -aq)
@@ -490,7 +450,6 @@ docker ps -a -q|xargs docker rm
 
 
 ```BASH
-
 docker start  容器ID
 
 docker restart 容器ID
@@ -516,7 +475,6 @@ docker kill  容器ID
 
 
 ```bash
-
 \[root@192 ~]# docker run -d centos
 
 567e495b338c36ee7e06c5bce654f3a27e79dbbd0d5de1e0559d49a5b488dde0
@@ -524,8 +482,6 @@ docker kill  容器ID
 \[root@192 ~]# docker ps
 
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-
-
 
 #常见的坑，docker容器使用后台运行，就必须有一个前台进程，docker发现没有前台应用，就会自动停止。
 
@@ -538,16 +494,11 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 ```bash
-
 #	编写一段脚本
 
 \[root@192 ~]# docker run -d centos /bin/sh -c "while true;do echo qj;sleep 2;done"  
 
-
-
 \[root@192 ~]# docker ps
-
-
 
 #显示日志
 
@@ -562,7 +513,6 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 ```BASH
-
 \[root@192 ~]# docker top 4589010de709
 
 UID                 PID                 PPID                C                   STIME     
@@ -578,10 +528,7 @@ root                9683                9663                0                   
 
 
 ```BASH
-
 \[root@192 ~]# docker inspect 4589010de709
-
-...
 
 ```
 
@@ -592,7 +539,6 @@ root                9683                9663                0                   
 
 
 ```bash
-
 \[root@192 ~]# docker ps
 
 CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS     NAMES
@@ -618,19 +564,12 @@ root        277      0  0 15:31 pts/0    00:00:00 /bin/bash
 root        298      1  0 15:31 ?        00:00:00 /usr/bin/coreutils --coreutils
 
 root        299    277  0 15:31 pts/0    00:00:00 ps -ef
-
-
-
 ```
 
 
 
 ```BASH
-
 \[root@192 ~]#docker attach 4589010de709
-
-
-
 #docker exec  打开一个新的终端
 
 #attach       进入正在执行的终端
@@ -644,7 +583,6 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 
 
 ```BASH
-
 #从容器里拷贝文件到宿主机上
 
 \[root@192 ~]# docker cp 4589010de709:/11 /home
@@ -676,7 +614,6 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 
 
 ```bash
-
 \[root@192 home]# docker images
 
 REPOSITORY    TAG       IMAGE ID       CREATED        SIZE
@@ -687,8 +624,6 @@ hello-world   latest    d1165f221234   2 months ago   13.3kB
 
 centos        latest    300e315adb2f   5 months ago   209MB
 
-
-
 # -d 后台运行
 
 # --name 起名字
@@ -698,8 +633,6 @@ centos        latest    300e315adb2f   5 months ago   209MB
 \[root@192 home]# docker run -d --name nginx02 -p 3344:80 nginx
 
 da43321a8c51f576eac48b10c1e36de09abb9db45327a4b751e9e5ed4e4636f0
-
-
 
 #test
 
@@ -715,15 +648,15 @@ da43321a8c51f576eac48b10c1e36de09abb9db45327a4b751e9e5ed4e4636f0
 
 <style>
 
-&nbsp;   body {
+   body {
 
-&nbsp;       width: 35em;
+       width: 35em;
 
-&nbsp;       margin: 0 auto;
+       margin: 0 auto;
 
-&nbsp;       font-family: Tahoma, Verdana, Arial, sans-serif;
+       font-family: Tahoma, Verdana, Arial, sans-serif;
 
-&nbsp;   }
+   }
 
 </style>
 
@@ -754,8 +687,6 @@ Commercial support is available at
 </body>
 
 </html>
-
-
 
 \[root@192 home]# docker ps
 
@@ -788,7 +719,6 @@ nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx
 
 
 ```bash
-
 docker pull tomcat
 
 docker run -d --name tomcat01 -p 3345:8080 tomcat
@@ -814,57 +744,49 @@ docker exec -it 3ad3fdd137ea /bin/bash
 
 
 ``` BASH
-
 1, ES比较耗内存, 增加内存限制，需要1.2g内存，-e 启动参数修改
 
 2, ES暴露端口比较多, 指定多个-p
 
 3，ES的数据必须放在安全目录！挂载
 
-
-
 \[root@192 home]# docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e ES\_JAVA\_OPTS="-Xms64m -Xmx512m" elasticsearch:7.6.2 
-
-
 
 \[root@192 home]# curl localhost:9200
 
 {
 
-&nbsp; "name" : "8adc29b75ee9",
+ "name" : "8adc29b75ee9",
 
-&nbsp; "cluster\_name" : "docker-cluster",
+ "cluster\_name" : "docker-cluster",
 
-&nbsp; "cluster\_uuid" : "fpWfeOHsQUKhc3vsXVY1tQ",
+ "cluster\_uuid" : "fpWfeOHsQUKhc3vsXVY1tQ",
 
-&nbsp; "version" : {
+ "version" : {
 
-&nbsp;   "number" : "7.6.2",
+   "number" : "7.6.2",
 
-&nbsp;   "build\_flavor" : "default",
+   "build\_flavor" : "default",
 
-&nbsp;   "build\_type" : "docker",
+   "build\_type" : "docker",
 
-&nbsp;   "build\_hash" : "ef48eb35cf30adf4db14086e8aabd07ef6fb113f",
+   "build\_hash" : "ef48eb35cf30adf4db14086e8aabd07ef6fb113f",
 
-&nbsp;   "build\_date" : "2020-03-26T06:34:37.794943Z",
+   "build\_date" : "2020-03-26T06:34:37.794943Z",
 
-&nbsp;   "build\_snapshot" : false,
+   "build\_snapshot" : false,
 
-&nbsp;   "lucene\_version" : "8.4.0",
+   "lucene\_version" : "8.4.0",
 
-&nbsp;   "minimum\_wire\_compatibility\_version" : "6.8.0",
+   "minimum\_wire\_compatibility\_version" : "6.8.0",
 
-&nbsp;   "minimum\_index\_compatibility\_version" : "6.0.0-beta1"
+   "minimum\_index\_compatibility\_version" : "6.0.0-beta1"
 
-&nbsp; },
+ },
 
-&nbsp; "tagline" : "You Know, for Search"
+ "tagline" : "You Know, for Search"
 
 }
-
-
-
 ```
 
 
@@ -874,18 +796,13 @@ docker exec -it 3ad3fdd137ea /bin/bash
 
 
 ```bash
-
 #start a redis instance
 
 docker run --name some-redis -d redis
 
-
-
 #start with persistent storage
 
 docker run --name some-redis -d redis redis-server --appendonly yes
-
-
 
 #connecting via redis-cli
 
@@ -950,14 +867,11 @@ The mapped directory should be writable, as depending on the configuration and m
 ## 容器数据卷
 
 
-
 ### 什么是数据卷
 
 
 
 需求：
-
-
 
 1\. 数据可以持久化
 
@@ -982,31 +896,14 @@ The mapped directory should be writable, as depending on the configuration and m
 ### 使用数据卷
 
 
-
-> 方式一：直接使用命令 -v
-
-
-
-
-
-### 实战：mysql测试
-
-
-
 ### 初识dockerfile
-
 
 
 dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的，每个命令就是一层
 
 
 
-
-
 ### 数据卷容器
-
-
-
 
 
 删除docker01容器后，docker02，docker03照样可以访问docker01的数据卷
@@ -1084,7 +981,6 @@ dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的
 
 
 ```bash
-
 FROM    #基础镜像
 
 MAINTAINER    #作者
@@ -1122,7 +1018,6 @@ ENV    #设置环境变量  -e
 
 
 ```BASH
-
 # 编写dockerfile文件
 
 \[root@localhost dockerfile]# cat mydockerfile
@@ -1131,33 +1026,21 @@ FROM centos
 
 MAINTAINER qj<qiaojun2002@163.com>
 
-
-
 ENV MYPATH /usr/local
 
 WORKDIR $MYPATH
-
-
 
 RUN yum -y install vim
 
 RUN yum -y install net-tools
 
-
-
 EXPOSE 80
-
-
 
 CMD echo $MYPATH
 
 CMD echo "-----------------build end-----------------"
 
-
-
 CMD /bin/bash
-
-
 
 # 构建镜像
 
@@ -1175,35 +1058,35 @@ Digest: sha256:5528e8b1b1719d34604c87e11dcd1c0a20bedf46e83b5632cdeac91b8c04efc1
 
 Status: Downloaded newer image for centos:latest
 
-&nbsp;---> 300e315adb2f
+---> 300e315adb2f
 
 Step 2/10 : MAINTAINER qj<qiaojun2002@163.com>
 
-&nbsp;---> Running in 946c0366bcd4
+---> Running in 946c0366bcd4
 
 Removing intermediate container 946c0366bcd4
 
-&nbsp;---> 06cb0004f73f
+---> 06cb0004f73f
 
 Step 3/10 : ENV MYPATH /usr/local
 
-&nbsp;---> Running in 9a42640297ce
+---> Running in 9a42640297ce
 
 Removing intermediate container 9a42640297ce
 
-&nbsp;---> 2dfd922108a3
+---> 2dfd922108a3
 
 Step 4/10 : WORKDIR $MYPATH
 
-&nbsp;---> Running in 321f0ebe53f8
+---> Running in 321f0ebe53f8
 
 Removing intermediate container 321f0ebe53f8
 
-&nbsp;---> a99d170ce4a1
+---> a99d170ce4a1
 
 Step 5/10 : RUN yum -y install vim
 
-&nbsp;---> Running in 716a53b879c7
+---> Running in 716a53b879c7
 
 CentOS Linux 8 - AppStream                      1.5 MB/s | 6.3 MB     00:04
 
@@ -1215,33 +1098,29 @@ Dependencies resolved.
 
 ================================================================================
 
-&nbsp;Package             Arch        Version                   Repository      Size
+Package             Arch        Version                   Repository      Size
 
 ================================================================================
 
 Installing:
 
-&nbsp;vim-enhanced        x86\_64      2:8.0.1763-15.el8         appstream      1.4 M
+vim-enhanced        x86\_64      2:8.0.1763-15.el8         appstream      1.4 M
 
 Installing dependencies:
 
-&nbsp;gpm-libs            x86\_64      1.20.7-15.el8             appstream       39 k
+gpm-libs            x86\_64      1.20.7-15.el8             appstream       39 k
 
-&nbsp;vim-common          x86\_64      2:8.0.1763-15.el8         appstream      6.3 M
+vim-common          x86\_64      2:8.0.1763-15.el8         appstream      6.3 M
 
-&nbsp;vim-filesystem      noarch      2:8.0.1763-15.el8         appstream       48 k
+vim-filesystem      noarch      2:8.0.1763-15.el8         appstream       48 k
 
-&nbsp;which               x86\_64      2.21-12.el8               baseos          49 k
-
-
+which               x86\_64      2.21-12.el8               baseos          49 k
 
 Transaction Summary
 
 ================================================================================
 
 Install  5 Packages
-
-
 
 Total download size: 7.8 M
 
@@ -1269,11 +1148,11 @@ CentOS Linux 8 - AppStream                      1.6 MB/s | 1.6 kB     00:00
 
 Importing GPG key 0x8483C65D:
 
-&nbsp;Userid     : "CentOS (CentOS Official Signing Key) <security@centos.org>"
+Userid     : "CentOS (CentOS Official Signing Key) <security@centos.org>"
 
-&nbsp;Fingerprint: 99DB 70FA E1D7 CE22 7FB6 4882 05B5 55B3 8483 C65D
+Fingerprint: 99DB 70FA E1D7 CE22 7FB6 4882 05B5 55B3 8483 C65D
 
-&nbsp;From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 
 Key imported successfully
 
@@ -1287,55 +1166,51 @@ Transaction test succeeded.
 
 Running transaction
 
-&nbsp; Preparing        :                                                        1/1
+ Preparing        :                                                        1/1
 
-&nbsp; Installing       : which-2.21-12.el8.x86\_64                               1/5
+ Installing       : which-2.21-12.el8.x86\_64                               1/5
 
-&nbsp; Installing       : vim-filesystem-2:8.0.1763-15.el8.noarch                2/5
+ Installing       : vim-filesystem-2:8.0.1763-15.el8.noarch                2/5
 
-&nbsp; Installing       : vim-common-2:8.0.1763-15.el8.x86\_64                    3/5
+ Installing       : vim-common-2:8.0.1763-15.el8.x86\_64                    3/5
 
-&nbsp; Installing       : gpm-libs-1.20.7-15.el8.x86\_64                          4/5
+ Installing       : gpm-libs-1.20.7-15.el8.x86\_64                          4/5
 
-&nbsp; Running scriptlet: gpm-libs-1.20.7-15.el8.x86\_64                          4/5
+ Running scriptlet: gpm-libs-1.20.7-15.el8.x86\_64                          4/5
 
-&nbsp; Installing       : vim-enhanced-2:8.0.1763-15.el8.x86\_64                  5/5
+ Installing       : vim-enhanced-2:8.0.1763-15.el8.x86\_64                  5/5
 
-&nbsp; Running scriptlet: vim-enhanced-2:8.0.1763-15.el8.x86\_64                  5/5
+ Running scriptlet: vim-enhanced-2:8.0.1763-15.el8.x86\_64                  5/5
 
-&nbsp; Running scriptlet: vim-common-2:8.0.1763-15.el8.x86\_64                    5/5
+ Running scriptlet: vim-common-2:8.0.1763-15.el8.x86\_64                    5/5
 
-&nbsp; Verifying        : gpm-libs-1.20.7-15.el8.x86\_64                          1/5
+ Verifying        : gpm-libs-1.20.7-15.el8.x86\_64                          1/5
 
-&nbsp; Verifying        : vim-common-2:8.0.1763-15.el8.x86\_64                    2/5
+ Verifying        : vim-common-2:8.0.1763-15.el8.x86\_64                    2/5
 
-&nbsp; Verifying        : vim-enhanced-2:8.0.1763-15.el8.x86\_64                  3/5
+ Verifying        : vim-enhanced-2:8.0.1763-15.el8.x86\_64                  3/5
 
-&nbsp; Verifying        : vim-filesystem-2:8.0.1763-15.el8.noarch                4/5
+ Verifying        : vim-filesystem-2:8.0.1763-15.el8.noarch                4/5
 
-&nbsp; Verifying        : which-2.21-12.el8.x86\_64                               5/5
-
-
+ Verifying        : which-2.21-12.el8.x86\_64                               5/5
 
 Installed:
 
-&nbsp; gpm-libs-1.20.7-15.el8.x86\_64         vim-common-2:8.0.1763-15.el8.x86\_64
+ gpm-libs-1.20.7-15.el8.x86\_64         vim-common-2:8.0.1763-15.el8.x86\_64
 
-&nbsp; vim-enhanced-2:8.0.1763-15.el8.x86\_64 vim-filesystem-2:8.0.1763-15.el8.noarch
+ vim-enhanced-2:8.0.1763-15.el8.x86\_64 vim-filesystem-2:8.0.1763-15.el8.noarch
 
-&nbsp; which-2.21-12.el8.x86\_64
-
-
+ which-2.21-12.el8.x86\_64
 
 Complete!
 
 Removing intermediate container 716a53b879c7
 
-&nbsp;---> 3e56881f32f3
+---> 3e56881f32f3
 
 Step 6/10 : RUN yum -y install net-tools
 
-&nbsp;---> Running in 08e74effed03
+---> Running in 08e74effed03
 
 Last metadata expiration check: 0:00:12 ago on Fri May 14 17:37:27 2021.
 
@@ -1343,23 +1218,19 @@ Dependencies resolved.
 
 ================================================================================
 
-&nbsp;Package         Architecture Version                        Repository    Size
+Package         Architecture Version                        Repository    Size
 
 ================================================================================
 
 Installing:
 
-&nbsp;net-tools       x86\_64       2.0-0.52.20160912git.el8       baseos       322 k
-
-
+net-tools       x86\_64       2.0-0.52.20160912git.el8       baseos       322 k
 
 Transaction Summary
 
 ================================================================================
 
 Install  1 Package
-
-
 
 Total download size: 322 k
 
@@ -1383,65 +1254,59 @@ Transaction test succeeded.
 
 Running transaction
 
-&nbsp; Preparing        :                                                        1/1
+ Preparing        :                                                        1/1
 
-&nbsp; Installing       : net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
+ Installing       : net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
 
-&nbsp; Running scriptlet: net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
+ Running scriptlet: net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
 
-&nbsp; Verifying        : net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
-
-
+ Verifying        : net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
 
 Installed:
 
-&nbsp; net-tools-2.0-0.52.20160912git.el8.x86\_64
-
-
+ net-tools-2.0-0.52.20160912git.el8.x86\_64
 
 Complete!
 
 Removing intermediate container 08e74effed03
 
-&nbsp;---> 60ee298a7584
+---> 60ee298a7584
 
 Step 7/10 : EXPOSE 80
 
-&nbsp;---> Running in 5aa1259c277c
+---> Running in 5aa1259c277c
 
 Removing intermediate container 5aa1259c277c
 
-&nbsp;---> fdc9eb2e97df
+---> fdc9eb2e97df
 
 Step 8/10 : CMD echo $MYPATH
 
-&nbsp;---> Running in 83afdd200304
+---> Running in 83afdd200304
 
 Removing intermediate container 83afdd200304
 
-&nbsp;---> 510a6a5e710f
+---> 510a6a5e710f
 
 Step 9/10 : CMD echo "-----------------build end-----------------"
 
-&nbsp;---> Running in d9362f4c5cde
+---> Running in d9362f4c5cde
 
 Removing intermediate container d9362f4c5cde
 
-&nbsp;---> 6251a37b03da
+---> 6251a37b03da
 
 Step 10/10 : CMD /bin/bash
 
-&nbsp;---> Running in 69c8acd6cce6
+---> Running in 69c8acd6cce6
 
 Removing intermediate container 69c8acd6cce6
 
-&nbsp;---> b6df0e7c5686
+---> b6df0e7c5686
 
 Successfully built b6df0e7c5686
 
 Successfully tagged mycentos:0.1
-
-
 
 #test
 
@@ -1455,35 +1320,31 @@ Successfully tagged mycentos:0.1
 
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
-&nbsp;       inet 172.17.0.2  netmask 255.255.0.0  broadcast 172.17.255.255
+       inet 172.17.0.2  netmask 255.255.0.0  broadcast 172.17.255.255
 
-&nbsp;       ether 02:42:ac:11:00:02  txqueuelen 0  (Ethernet)
+       ether 02:42:ac:11:00:02  txqueuelen 0  (Ethernet)
 
-&nbsp;       RX packets 8  bytes 656 (656.0 B)
+       RX packets 8  bytes 656 (656.0 B)
 
-&nbsp;       RX errors 0  dropped 0  overruns 0  frame 0
+       RX errors 0  dropped 0  overruns 0  frame 0
 
-&nbsp;       TX packets 0  bytes 0 (0.0 B)
+       TX packets 0  bytes 0 (0.0 B)
 
-&nbsp;       TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-
+       TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
-&nbsp;       inet 127.0.0.1  netmask 255.0.0.0
+       inet 127.0.0.1  netmask 255.0.0.0
 
-&nbsp;       loop  txqueuelen 1000  (Local Loopback)
+       loop  txqueuelen 1000  (Local Loopback)
 
-&nbsp;       RX packets 0  bytes 0 (0.0 B)
+       RX packets 0  bytes 0 (0.0 B)
 
-&nbsp;       RX errors 0  dropped 0  overruns 0  frame 0
+       RX errors 0  dropped 0  overruns 0  frame 0
 
-&nbsp;       TX packets 0  bytes 0 (0.0 B)
+       TX packets 0  bytes 0 (0.0 B)
 
-&nbsp;       TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-
+       TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 #镜像的构建步骤
 
@@ -1532,7 +1393,6 @@ a99d170ce4a1   8 minutes ago   /bin/sh -c #(nop) WORKDIR /usr/local            0
 
 
 ```BASH
-
 #CMD实例
 
 \[root@localhost dockerfile]# cat docker-cmd-test
@@ -1541,63 +1401,34 @@ FROM centos
 
 CMD \["ls","-a"]
 
-
-
 \[root@localhost dockerfile]# docker run 8146ffc523e2
-
 .
-
 ..
-
 .dockerenv
-
 bin
-
 dev
-
 etc
-
 home
-
 lib
-
 lib64
-
 lost+found
-
 media
-
 mnt
-
 opt
-
 proc
-
 root
-
 run
-
 sbin
-
 srv
-
 sys
-
 tmp
-
 usr
-
 var
-
-
-
 \[root@localhost dockerfile]# docker run 8146ffc523e2 -l
 
 docker: Error response from daemon: OCI runtime create failed: container\_linux.go:367: starting container process caused: exec: "-l": executable file not found in $PATH: unknown.
 
 ERRO\[0000] error waiting for container: context canceled
-
-
 
 ```
 
@@ -1608,7 +1439,6 @@ ERRO\[0000] error waiting for container: context canceled
 
 
 ```BASH
-
 #ENTRYPOINT实例
 
 \[root@localhost dockerfile]# cat docker-entrypoint-test
@@ -1616,8 +1446,6 @@ ERRO\[0000] error waiting for container: context canceled
 FROM centos
 
 ENTRYPOINT \["ls","-a"]
-
-
 
 \[root@localhost dockerfile]# docker run 73bc5d2e1d00
 
@@ -1712,9 +1540,6 @@ drwxrwxrwt.   7 root root 145 Dec  4 17:37 tmp
 drwxr-xr-x.  12 root root 144 Dec  4 17:37 usr
 
 drwxr-xr-x.  20 root root 262 Dec  4 17:37 var
-
-
-
 ```
 
 
@@ -1732,7 +1557,6 @@ drwxr-xr-x.  20 root root 262 Dec  4 17:37 var
 
 
 ```BASH
-
 \[root@localhost ~]# docker network ls
 
 NETWORK ID     NAME      DRIVER    SCOPE
@@ -1778,14 +1602,8 @@ container：容器内网络连通
 ```BASH
 
 docker run -d -P --name tomcat01
-
 docker run -d -P --net bridge --name tomcat01
-
-
-
 #docker0 特点： 默认，域名不能访问  --link可以打通
-
-
 
 #自定义网络
 
@@ -1811,85 +1629,73 @@ a3a375569fc0   host      host      local
 
 a8822654faf0   none      null      local
 
-
-
 #查看自定义网络
 
 \[root@localhost ~]# docker network inspect 7ea68fbf783a
 
 \[
+   {
 
-&nbsp;   {
+       "Name": "mynet",
 
-&nbsp;       "Name": "mynet",
+       "Id": "7ea68fbf783af33e0f2cfa5203f17a8322f2e70d143e5d670fa57f933fae3ec0",
 
-&nbsp;       "Id": "7ea68fbf783af33e0f2cfa5203f17a8322f2e70d143e5d670fa57f933fae3ec0",
+       "Created": "2021-05-15T09:22:58.365432902-04:00",
 
-&nbsp;       "Created": "2021-05-15T09:22:58.365432902-04:00",
+       "Scope": "local",
 
-&nbsp;       "Scope": "local",
+       "Driver": "bridge",
 
-&nbsp;       "Driver": "bridge",
+       "EnableIPv6": false,
 
-&nbsp;       "EnableIPv6": false,
+       "IPAM": {
 
-&nbsp;       "IPAM": {
+           "Driver": "default",
 
-&nbsp;           "Driver": "default",
+           "Options": {},
 
-&nbsp;           "Options": {},
+           "Config": \[
 
-&nbsp;           "Config": \[
+               {
 
-&nbsp;               {
+                   "Subnet": "192.168.0.0/16",
 
-&nbsp;                   "Subnet": "192.168.0.0/16",
+                   "Gateway": "192.168.0.1"
 
-&nbsp;                   "Gateway": "192.168.0.1"
+               }
 
-&nbsp;               }
+           ]
 
-&nbsp;           ]
+       },
 
-&nbsp;       },
+       "Internal": false,
 
-&nbsp;       "Internal": false,
+       "Attachable": false,
 
-&nbsp;       "Attachable": false,
+       "Ingress": false,
 
-&nbsp;       "Ingress": false,
+       "ConfigFrom": {
 
-&nbsp;       "ConfigFrom": {
+           "Network": ""
 
-&nbsp;           "Network": ""
+       },
 
-&nbsp;       },
+       "ConfigOnly": false,
 
-&nbsp;       "ConfigOnly": false,
+       "Containers": {},
 
-&nbsp;       "Containers": {},
+       "Options": {},
 
-&nbsp;       "Options": {},
+       "Labels": {}
 
-&nbsp;       "Labels": {}
-
-&nbsp;   }
+   }
 
 ]
-
-
-
-
-
-
-
 #自定义网络添加容器
 
 \[root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
 
 \[root@localhost ~]# docker run -d -it -P --name centos-net-04 --net mynet centos
-
-
 
 #测试ping命令，现在不使用--link，也可以ping名字了
 
@@ -1917,59 +1723,31 @@ PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
 
 
 ```bash
-
 \[root@localhost ~]# docker network connect --help
-
 Usage:  docker network connect \[OPTIONS] NETWORK CONTAINER
-
 Connect a container to a network
 
-
-
 #默认docker0添加容器
-
 \[root@localhost ~]# docker run -d -it -P --name centos-01 centos               
-
 \[root@localhost ~]# docker run -d -it -P --name centos-02 centos
 
-
-
 #自定义网络添加容器
-
 \[root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
-
 \[root@localhost ~]# docker run -d -it -P --name centos-net-04 --net mynet centos
 
-
-
 #docker0容器无法访问mynet网络下容器
-
 \[root@localhost ~]# docker exec -it centos-01 ping centos-net-03
-
 ping: centos-net-03: Name or service not known
 
-
-
-
-
 #测试打通tomcat01 - mynet
-
 \[root@localhost ~]# docker network connect mynet centos-01
 
-
-
 #再次测试，docker0容器可以访问mynet网络下容器
-
 \[root@localhost ~]# docker exec -it centos-01 ping centos-net-03
-
 PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
-
 64 bytes from centos-net-03.mynet (192.168.0.2): icmp\_seq=1 ttl=64 time=0.133 ms
-
 64 bytes from centos-net-03.mynet (192.168.0.2): icmp\_seq=2 ttl=64 time=0.139 ms
-
 64 bytes from centos-net-03.mynet (192.168.0.2): icmp\_seq=3 ttl=64 time=0.129 ms
-
 ```
 
 
@@ -2012,8 +1790,6 @@ Using Compose is basically a three-step process:
 
 Compose：重要概念
 
-
-
 \- 服务service： 容器，应用（redis，tomcat，etc）
 
 \- 项目project，一组容器
@@ -2025,13 +1801,9 @@ Compose：重要概念
 
 
 ```
-
 curl -L https://get.daocloud.io/docker/compose/releases/download/1.29.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 
-
-
 chmod +x /usr/local/bin/docker-compose
-
 ```
 
 
