@@ -141,71 +141,38 @@ Docker是内核级的虚拟化，可以在一个物理机上运行很多的容�
 ```
 #1，卸载旧的
 sudo yum remove docker \\
-
                  docker-client \\
-
                  docker-client-latest \\
-
                  docker-common \\
-
                  docker-latest \\
-
                  docker-latest-logrotate \\
-
                  docker-logrotate \\
-
                  docker-engine
 
-
-
 #2.需要的安装包
-
 yum install -y yum-utils
 
-
-
 #3.设置镜像仓库
-
 sudo yum-config-manager \\
-
    --add-repo \\
-
    http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 
-
-
 #更新索引
-
 yum makecache fast
 
-
-
 #4.安装docker
-
 yum install docker-ce docker-ce-cli containerd.io
 
-
-
 #5.启动
-
 systemctl start docker
 
-
-
 #6.版本
-
 docker version
 
-
-
 #7.测试
-
 docker run hello-world
 
-
-
 #8. 查看hello-world
-
 docker images
 
 ```
@@ -222,11 +189,7 @@ docker images
 
 ```bash
 yum remove docker-ce docker-ce-cli containerd.io
-
-
-
 rm -rf /var/lib/docker
-
 rm -rf /var/lib/containerd
 
 ```
@@ -244,11 +207,8 @@ rm -rf /var/lib/containerd
 
 ```hash
 docker version  #显示版本信息
-
 docker info     #
-
 docker 命令 --help
-
 ```
 
 
@@ -267,13 +227,9 @@ docker 命令 --help
 
 ```shell
 docker images
-
 docker search mysql
-
 docker search mysql --filter=STARS=3000
-
 docker pull --help
-
 docker pull mysql
 ```
 
@@ -281,45 +237,26 @@ docker pull mysql
 
 ```bash
 [root@192 ~]# docker pull mysql
-
 Using default tag: latest  #如果不写tag，默认为latest
-
 latest: Pulling from library/mysql
-
 69692152171a: Pull complete   #分层下载， image的核心
-
 1651b0be3df3: Pull complete
-
 951da7386bc8: Pull complete
-
 0f86c95aa242: Pull complete
-
 37ba2d8bd4fe: Pull complete
-
 6d278bb05e94: Pull complete
-
 497efbd93a3e: Pull complete
-
 f7fddf10c2c2: Pull complete
-
 16415d159dfb: Pull complete
-
 0e530ffc6b73: Pull complete
-
 b0a4a1a77178: Pull complete
-
 cd90f92aa9ef: Pull complete
-
 Digest: sha256:d50098d7fcb25b1fcb24e2d3247cae3fc55815d64fec640dc395840f8fa80969
-
 Status: Downloaded newer image for mysql:latest
-
 docker.io/library/mysql:latest  #真实地址
 
 [root@192 ~]# docker pull mysql:5.7    #指定版本下载镜像
-
 [root@192 ~]# docker rmi c0cdc95609f1  #删除镜像
-
 [root@192 ~]# docker rmi -f $(docker images -aq) #删除全部的镜像
 
 ```
@@ -340,48 +277,28 @@ docker.io/library/mysql:latest  #真实地址
 
 ```bash
 docker run [可选参数] image
-
 #参数说明
-
 --name=“Name” 起个名字，区分容器
-
 -d            后台方式运行
-
 -it           使用交互方式运行，进入容器查看内容
-
 -p            指定容器端口
-
 	-p ip：主机端口：容器端口
-
 	-p 主机端口：容器端口
-
 	-p 容器端口
-
 -P            随机指定端口
-
 ```
 
 
 
 ```BASH
 #启动并进入容器
-
 [root@192 ~]# docker run -it centos /bin/bash
-
 [root@83929b2c631e /]# ls
-
 bin  etc   lib    lost+found  mnt  proc  run   srv  tmp  var
-
 dev  home  lib64  media       opt  root  sbin  sys  usr
-
 #退出容器
-
 [root@83929b2c631e /]# exit
-
 exit
-
-[root@192 ~]#
-
 ```
 
 
@@ -402,15 +319,10 @@ exit
 -q    #只显示容器编号
 
 [root@192 ~]# docker ps
-
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-
 [root@192 ~]# docker ps -a
-
 CONTAINER ID   IMAGE         COMMAND       CREATED          STATUS                          PORTS     NAMES
-
 83929b2c631e   centos        "/bin/bash"   3 minutes ago    Exited (0) About a minute ago             elegant\_blackburn
-
 eace531a4318   hello-world   "/hello"      45 minutes ago   Exited (0) 45 minutes ago                 determined\_matsumoto
 ```
 
@@ -422,9 +334,7 @@ eace531a4318   hello-world   "/hello"      45 minutes ago   Exited (0) 45 minute
 
 ```
 exit          #退出容器并停止
-
 CTRL + P + Q  #退出容器不停止
-
 ```
 
 
@@ -435,11 +345,8 @@ CTRL + P + Q  #退出容器不停止
 
 ```
 docker rm 容器id                
-
 docker rm -f $(docker ps -aq)
-
 docker ps -a -q|xargs docker rm
-
 ```
 
 
@@ -450,13 +357,9 @@ docker ps -a -q|xargs docker rm
 
 ```BASH
 docker start  容器ID
-
 docker restart 容器ID
-
 docker stop 容器ID
-
 docker kill  容器ID
-
 ```
 
 
@@ -475,13 +378,9 @@ docker kill  容器ID
 
 ```bash
 [root@192 ~]# docker run -d centos
-
 567e495b338c36ee7e06c5bce654f3a27e79dbbd0d5de1e0559d49a5b488dde0
-
 [root@192 ~]# docker ps
-
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-
 #常见的坑，docker容器使用后台运行，就必须有一个前台进程，docker发现没有前台应用，就会自动停止。
 
 ```
@@ -494,15 +393,10 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 ```bash
 #	编写一段脚本
-
 [root@192 ~]# docker run -d centos /bin/sh -c "while true;do echo qj;sleep 2;done"  
-
 [root@192 ~]# docker ps
-
 #显示日志
-
 [root@192 ~]# docker logs -ft --tail 10 f4620a87216a
-
 ```
 
 
@@ -513,11 +407,8 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 ```BASH
 [root@192 ~]# docker top 4589010de709
-
 UID                 PID                 PPID                C                   STIME     
-
 root                9683                9663                0                   11:21     root                9744                9683                0                   11:22      
-
 ```
 
 
@@ -528,7 +419,6 @@ root                9683                9663                0                   
 
 ```BASH
 [root@192 ~]# docker inspect 4589010de709
-
 ```
 
 
@@ -539,29 +429,17 @@ root                9683                9663                0                   
 
 ```bash
 [root@192 ~]# docker ps
-
 CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS     NAMES
-
 4589010de709   centos    "/bin/sh -c 'while t…"   8 minutes ago   Up 8 minutes             festive\_gauss
-
 [root@192 ~]# docker exec -it 4589010de709 /bin/bash
-
 [root@4589010de709 /]# ls
-
 bin  etc   lib    lost+found  mnt  proc  run   srv  tmp  var
-
 dev  home  lib64  media       opt  root  sbin  sys  usr
-
 [root@4589010de709 /]# ps -ef
-
 UID         PID   PPID  C STIME TTY          TIME CMD
-
 root          1      0  0 15:21 ?        00:00:00 /bin/sh -c while true;do echo
-
 root        277      0  0 15:31 pts/0    00:00:00 /bin/bash
-
 root        298      1  0 15:31 ?        00:00:00 /usr/bin/coreutils --coreutils
-
 root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 ```
 
@@ -570,9 +448,7 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 ```BASH
 [root@192 ~]#docker attach 4589010de709
 #docker exec  打开一个新的终端
-
 #attach       进入正在执行的终端
-
 ```
 
 
@@ -583,7 +459,6 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 
 ```BASH
 #从容器里拷贝文件到宿主机上
-
 [root@192 ~]# docker cp 4589010de709:/11 /home
 
 ```
@@ -719,13 +594,9 @@ nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx
 
 ```bash
 docker pull tomcat
-
 docker run -d --name tomcat01 -p 3345:8080 tomcat
-
 docker ps
-
 docker exec -it 3ad3fdd137ea /bin/bash
-
 ```
 
 
@@ -796,15 +667,10 @@ docker exec -it 3ad3fdd137ea /bin/bash
 
 ```bash
 #start a redis instance
-
 docker run --name some-redis -d redis
-
 #start with persistent storage
-
 docker run --name some-redis -d redis redis-server --appendonly yes
-
 #connecting via redis-cli
-
 docker exec -it 9d9635d22920 redis-cli
 
 ```
@@ -824,11 +690,8 @@ You can create your own Dockerfile that adds a redis.conf from the context into 
 
 
 ```
-
 FROM redis
-
 COPY redis.conf /usr/local/etc/redis/redis.conf
-
 CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
 
 ```
@@ -1393,13 +1256,9 @@ a99d170ce4a1   8 minutes ago   /bin/sh -c #(nop) WORKDIR /usr/local            0
 
 ```BASH
 #CMD实例
-
 [root@localhost dockerfile]# cat docker-cmd-test
-
 FROM centos
-
 CMD ["ls","-a"]
-
 [root@localhost dockerfile]# docker run 8146ffc523e2
 .
 ..
@@ -1439,105 +1298,55 @@ ERRO[0000] error waiting for container: context canceled
 
 ```BASH
 #ENTRYPOINT实例
-
 [root@localhost dockerfile]# cat docker-entrypoint-test
-
 FROM centos
-
 ENTRYPOINT ["ls","-a"]
-
 [root@localhost dockerfile]# docker run 73bc5d2e1d00
-
 .
-
 ..
-
 .dockerenv
-
 bin
-
 dev
-
 etc
-
 home
-
 lib
-
 lib64
-
 lost+found
-
 media
-
 mnt
-
 opt
-
 proc
-
 root
-
 run
-
 sbin
-
 srv
-
 sys
-
 tmp
-
 usr
-
 var
-
 [root@localhost dockerfile]# docker run 73bc5d2e1d00 -l
-
 total 0
-
 drwxr-xr-x.   1 root root   6 May 14 17:59 .
-
 drwxr-xr-x.   1 root root   6 May 14 17:59 ..
-
 -rwxr-xr-x.   1 root root   0 May 14 17:59 .dockerenv
-
 lrwxrwxrwx.   1 root root   7 Nov  3  2020 bin -> usr/bin
-
 drwxr-xr-x.   5 root root 340 May 14 17:59 dev
-
 drwxr-xr-x.   1 root root  66 May 14 17:59 etc
-
 drwxr-xr-x.   2 root root   6 Nov  3  2020 home
-
 lrwxrwxrwx.   1 root root   7 Nov  3  2020 lib -> usr/lib
-
 lrwxrwxrwx.   1 root root   9 Nov  3  2020 lib64 -> usr/lib64
-
 drwx------.   2 root root   6 Dec  4 17:37 lost+found
-
 drwxr-xr-x.   2 root root   6 Nov  3  2020 media
-
 drwxr-xr-x.   2 root root   6 Nov  3  2020 mnt
-
 drwxr-xr-x.   2 root root   6 Nov  3  2020 opt
-
 dr-xr-xr-x. 149 root root   0 May 14 17:59 proc
-
 dr-xr-x---.   2 root root 162 Dec  4 17:37 root
-
 drwxr-xr-x.  11 root root 163 Dec  4 17:37 run
-
 lrwxrwxrwx.   1 root root   8 Nov  3  2020 sbin -> usr/sbin
-
 drwxr-xr-x.   2 root root   6 Nov  3  2020 srv
-
 dr-xr-xr-x.  13 root root   0 May 14 17:07 sys
-
 drwxrwxrwt.   7 root root 145 Dec  4 17:37 tmp
-
 drwxr-xr-x.  12 root root 144 Dec  4 17:37 usr
-
 drwxr-xr-x.  20 root root 262 Dec  4 17:37 var
 ```
 
@@ -1557,13 +1366,9 @@ drwxr-xr-x.  20 root root 262 Dec  4 17:37 var
 
 ```BASH
 [root@localhost ~]# docker network ls
-
 NETWORK ID     NAME      DRIVER    SCOPE
-
 0b73fb45e41b   bridge    bridge    local
-
 a3a375569fc0   host      host      local
-
 a8822654faf0   none      null      local
 
 ```
@@ -1599,111 +1404,68 @@ container：容器内网络连通
 
 
 ```BASH
-
 docker run -d -P --name tomcat01
 docker run -d -P --net bridge --name tomcat01
 #docker0 特点： 默认，域名不能访问  --link可以打通
 
 #自定义网络
-
 # --driver bridge
-
 # --subnet 192.168.0.0
-
 # --gateway 192.168.0.1
-
 [root@localhost ~]# docker network create --driver bridge --subnet 192.168.0.0/16 --gateway 192.168.0.1 mynet
-
 7ea68fbf783af33e0f2cfa5203f17a8322f2e70d143e5d670fa57f933fae3ec0
 
 [root@localhost ~]# docker network ls
-
 NETWORK ID     NAME      DRIVER    SCOPE
-
 0b73fb45e41b   bridge    bridge    local
-
 a3a375569fc0   host      host      local
-
 7ea68fbf783a   mynet     bridge    local
-
 a8822654faf0   none      null      local
 
 #查看自定义网络
 
 [root@localhost ~]# docker network inspect 7ea68fbf783a
-
 [
    {
 
        "Name": "mynet",
-
        "Id": "7ea68fbf783af33e0f2cfa5203f17a8322f2e70d143e5d670fa57f933fae3ec0",
-
        "Created": "2021-05-15T09:22:58.365432902-04:00",
-
        "Scope": "local",
-
        "Driver": "bridge",
-
        "EnableIPv6": false,
-
        "IPAM": {
-
            "Driver": "default",
-
            "Options": {},
-
            "Config": [
-
                {
-
                    "Subnet": "192.168.0.0/16",
-
                    "Gateway": "192.168.0.1"
-
                }
-
            ]
-
        },
 
        "Internal": false,
-
        "Attachable": false,
-
        "Ingress": false,
-
        "ConfigFrom": {
-
            "Network": ""
-
        },
-
        "ConfigOnly": false,
-
        "Containers": {},
-
        "Options": {},
-
        "Labels": {}
 
    }
 
 ]
 #自定义网络添加容器
-
 [root@localhost ~]# docker run -d -it -P --name centos-net-03 --net mynet centos
-
 [root@localhost ~]# docker run -d -it -P --name centos-net-04 --net mynet centos
-
 #测试ping命令，现在不使用--link，也可以ping名字了
-
 [root@localhost ~]# docker exec -it centos-net-04 ping centos-net-03
-
 PING centos-net-03 (192.168.0.2) 56(84) bytes of data.
-
 64 bytes from centos-net-03.mynet (192.168.0.2): icmp\_seq=1 ttl=64 time=0.104 ms
-
 64 bytes from centos-net-03.mynet (192.168.0.2): icmp\_seq=2 ttl=64 time=0.250 ms
 
 ```
