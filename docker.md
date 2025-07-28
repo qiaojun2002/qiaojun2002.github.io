@@ -1,30 +1,29 @@
 # 导论
 
-> docker 学习
 
 
 
-\- docker 概述
+- docker 概述
 
-\- docker 安装
+- docker 安装
 
-\- docker 命令
+- docker 命令
 
-\- docker镜像
+- docker镜像
 
-\- 容器数据卷
+- 容器数据卷
 
-\- docker File
+- docker File
 
-\- docker网络原理
+- docker网络原理
 
-\- IDEA整合docker
+- IDEA整合docker
 
-\- docker compose
+- docker compose
 
-\- docker swarm
+- docker swarm
 
-\- CI/CD jenkins
+- CI/CD jenkins
 
 
 
@@ -58,11 +57,11 @@ docker隔离，镜像（最核心的环境 4m + jdk +mysql） 十分的小巧，
 
 
 
-\[官网](https://www.docker.com/)
+[官网](https://www.docker.com/)
 
-\[文档](https://docs.docker.com/)   docker的文档超级详细
+[文档](https://docs.docker.com/) 
 
-\[仓库](https://hub.docker.com/)
+[仓库](https://hub.docker.com/)
 
 
 ## Docker能干什么
@@ -85,11 +84,11 @@ docker隔离，镜像（最核心的环境 4m + jdk +mysql） 十分的小巧，
 
 
 
-\- 传统虚拟机技术，虚拟出一套硬件，一个操作系统，然后在这个系统上安装和运行软件
+- 传统虚拟机技术，虚拟出一套硬件，一个操作系统，然后在这个系统上安装和运行软件
 
-\- 容器是没有自己的内核的，应用运行在宿主机内，也没有虚拟硬件，所以就轻便了
+- 容器是没有自己的内核的，应用运行在宿主机内，也没有虚拟硬件，所以就轻便了
 
-\- 每个容器间是隔离的，每个容器都有自己的文件系统，互不影响
+- 每个容器间是隔离的，每个容器都有自己的文件系统，互不影响
 
 
 
@@ -101,13 +100,13 @@ docker隔离，镜像（最核心的环境 4m + jdk +mysql） 十分的小巧，
 
 
 
-\- 更快速的交付和部署
+- 更快速的交付和部署
 
-\- 更便捷的的升级和扩缩容
+- 更便捷的的升级和扩缩容
 
-\- 更简单的系统运维
+- 更简单的系统运维
 
-\- 更搞笑的计算资源利用
+- 更搞笑的计算资源利用
 
 
 
@@ -125,15 +124,15 @@ Docker是内核级的虚拟化，可以在一个物理机上运行很多的容�
 
 
 
-\*\*镜像（image）\*\*：就好比一个模板，来创建容器服务，tomcat镜像 --->run ---> tomcat01 容器，通过这个镜像运行多个容器
+**镜像（image）**：就好比一个模板，来创建容器服务，tomcat镜像 --->run ---> tomcat01 容器，通过这个镜像运行多个容器
 
 
 
-\*\*容器（container）\*\*：Docker利用容器技术，独立运行一个或者一组通过镜像创建的应用。可以理解为一个非常简陋的Linux系统
+**容器（container）**：Docker利用容器技术，独立运行一个或者一组通过镜像创建的应用。可以理解为一个非常简陋的Linux系统
 
 
 
-\*\*仓库（repository）：\*\*存放镜像的地方。Dockerhub（默认为国外，速度较慢）
+**仓库（repository）：**存放镜像的地方。Dockerhub（默认为国外，速度较慢）
 
 
 
@@ -335,7 +334,7 @@ docker.io/library/mysql:latest  #真实地址
 
 
 
-#### \*\*新建容器并启动\*\*
+#### **新建容器并启动**
 
 
 
@@ -387,7 +386,7 @@ exit
 
 
 
-#### \*\*列出所有的容器\*\*
+#### **列出所有的容器**
 
 
 
@@ -417,7 +416,7 @@ eace531a4318   hello-world   "/hello"      45 minutes ago   Exited (0) 45 minute
 
 
 
-#### \*\*退出容器\*\*
+#### **退出容器**
 
 
 
@@ -430,7 +429,7 @@ CTRL + P + Q  #退出容器不停止
 
 
 
-#### \*\*删除容器\*\*
+#### **删除容器**
 
 
 
@@ -445,7 +444,7 @@ docker ps -a -q|xargs docker rm
 
 
 
-#### \*\*启动和停止容器\*\*
+#### **启动和停止容器**
 
 
 
@@ -470,7 +469,7 @@ docker kill  容器ID
 
 
 
-#### \*\*后台启动容器\*\*
+#### **后台启动容器**
 
 
 
@@ -489,7 +488,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 
-#### \*\*查看日志\*\*
+#### **查看日志**
 
 
 
@@ -508,7 +507,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 
-#### \*\*查看容器里进程信息\*\*
+#### **查看容器里进程信息**
 
 
 
@@ -523,7 +522,7 @@ root                9683                9663                0                   
 
 
 
-#### \*\*查看镜像元数据\*\*
+#### **查看镜像元数据**
 
 
 
@@ -534,7 +533,7 @@ root                9683                9663                0                   
 
 
 
-#### \*\*进入容器\*\*
+#### **进入容器**
 
 
 
@@ -816,7 +815,7 @@ docker exec -it 9d9635d22920 redis-cli
 
 
 
-\*\*Additionally, If you want to use your own redis.conf ... \*\*
+**Additionally, If you want to use your own redis.conf ... **
 
 
 
@@ -885,7 +884,7 @@ The mapped directory should be writable, as depending on the configuration and m
 
 
 
-\*\*容器的持久化和同步操作，容器间也是可以数据共享的\*\*
+**容器的持久化和同步操作，容器间也是可以数据共享的**
 
 
 
@@ -922,7 +921,7 @@ dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的
 
 
 
-\*\*构建步骤\*\*：
+**构建步骤**：
 
 
 
@@ -944,7 +943,7 @@ dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的
 
 
 
-\*\*基础知识\*\*：
+**基础知识**：
 
 
 
@@ -1575,7 +1574,7 @@ a8822654faf0   none      null      local
 
 
 
-\*\*网络模式\*\*
+**网络模式**
 
 
 
@@ -1595,7 +1594,7 @@ container：容器内网络连通
 
 
 
-\*\*测试\*\*
+**测试**
 
 
 
@@ -1790,9 +1789,9 @@ Using Compose is basically a three-step process:
 
 Compose：重要概念
 
-\- 服务service： 容器，应用（redis，tomcat，etc）
+- 服务service： 容器，应用（redis，tomcat，etc）
 
-\- 项目project，一组容器
+- 项目project，一组容器
 
 
 
