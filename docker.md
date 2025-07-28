@@ -489,93 +489,51 @@ root        299    277  0 15:31 pts/0    00:00:00 ps -ef
 
 ```bash
 [root@192 home]# docker images
-
 REPOSITORY    TAG       IMAGE ID       CREATED        SIZE
-
 nginx         latest    f0b8a9a54136   32 hours ago   133MB
-
 hello-world   latest    d1165f221234   2 months ago   13.3kB
-
 centos        latest    300e315adb2f   5 months ago   209MB
 
 # -d 后台运行
-
 # --name 起名字
-
 # -p 宿主机端口：容器内端口
 
 [root@192 home]# docker run -d --name nginx02 -p 3344:80 nginx
-
 da43321a8c51f576eac48b10c1e36de09abb9db45327a4b751e9e5ed4e4636f0
-
 #test
 
 [root@192 home]# curl localhost:3344
-
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <title>Welcome to nginx!</title>
-
 <style>
-
    body {
-
        width: 35em;
-
        margin: 0 auto;
-
        font-family: Tahoma, Verdana, Arial, sans-serif;
-
    }
-
 </style>
-
 </head>
-
 <body>
-
 <h1>Welcome to nginx!</h1>
-
 <p>If you see this page, the nginx web server is successfully installed and
-
 working. Further configuration is required.</p>
-
-
-
 <p>For online documentation and support please refer to
-
 <a href="http://nginx.org/">nginx.org</a>.<br/>
-
 Commercial support is available at
-
 <a href="http://nginx.com/">nginx.com</a>.</p>
-
-
-
 <p><em>Thank you for using nginx.</em></p>
-
 </body>
-
 </html>
 
 [root@192 home]# docker ps
-
 CONTAINER ID   IMAGE     COMMAND                  CREATED             STATUS             PORTS                                   NAMES
-
 da43321a8c51   nginx     "/docker-entrypoint.…"   6 minutes ago       Up 6 minutes       0.0.0.0:3344->80/tcp, :::3344->80/tcp   nginx02
-
 4589010de709   centos    "/bin/sh -c 'while t…"   About an hour ago   Up About an hour                                           festive\_gauss
-
 [root@192 home]# docker exec -it da43321a8c51 /bin/bash
-
 root@da43321a8c51:/# whereis nginx
-
 nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx
-
 ```
 
 
@@ -615,47 +573,27 @@ docker exec -it 3ad3fdd137ea /bin/bash
 
 ``` BASH
 1, ES比较耗内存, 增加内存限制，需要1.2g内存，-e 启动参数修改
-
 2, ES暴露端口比较多, 指定多个-p
-
 3，ES的数据必须放在安全目录！挂载
 
 [root@192 home]# docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e ES\_JAVA\_OPTS="-Xms64m -Xmx512m" elasticsearch:7.6.2 
-
 [root@192 home]# curl localhost:9200
-
 {
-
  "name" : "8adc29b75ee9",
-
  "cluster\_name" : "docker-cluster",
-
  "cluster\_uuid" : "fpWfeOHsQUKhc3vsXVY1tQ",
-
  "version" : {
-
    "number" : "7.6.2",
-
    "build\_flavor" : "default",
-
    "build\_type" : "docker",
-
    "build\_hash" : "ef48eb35cf30adf4db14086e8aabd07ef6fb113f",
-
    "build\_date" : "2020-03-26T06:34:37.794943Z",
-
    "build\_snapshot" : false,
-
    "lucene\_version" : "8.4.0",
-
    "minimum\_wire\_compatibility\_version" : "6.8.0",
-
    "minimum\_index\_compatibility\_version" : "6.0.0-beta1"
-
  },
-
  "tagline" : "You Know, for Search"
-
 }
 ```
 
@@ -844,29 +782,17 @@ dockfile就是用来构建镜像的命令脚本文件，镜像是一层一层的
 
 ```bash
 FROM    #基础镜像
-
 MAINTAINER    #作者
-
 RUN    #镜像构建的时候，需要运行的命令
-
 ADD    #步骤，添加内容
-
 WORKDIR    #工作目录
-
 VOLUME     #数据卷  -v
-
 EXPOSE    #暴露端口 -p
-
 CMD      #指定这个容器启动的时候，要运行的命令,只有最后一个会生效
-
 ENTRYPOINT    #指定这个容器启动的时候，要运行的命令，可以追加命令
-
 ONBUILD    #当构建一个被继承的，会出发这个指令
-
 COPY    #类似ADD，将我们的文件拷贝到镜像中
-
 ENV    #设置环境变量  -e
-
 ```
 
 
@@ -883,79 +809,43 @@ ENV    #设置环境变量  -e
 # 编写dockerfile文件
 
 [root@localhost dockerfile]# cat mydockerfile
-
 FROM centos
-
 MAINTAINER qj<qiaojun2002@163.com>
-
 ENV MYPATH /usr/local
-
 WORKDIR $MYPATH
-
 RUN yum -y install vim
-
 RUN yum -y install net-tools
-
 EXPOSE 80
-
 CMD echo $MYPATH
-
 CMD echo "-----------------build end-----------------"
-
 CMD /bin/bash
 
 # 构建镜像
-
 [root@localhost dockerfile]# docker build -f mydockerfile -t mycentos:0.1 .
-
 Sending build context to Docker daemon  2.048kB
-
 Step 1/10 : FROM centos
-
 latest: Pulling from library/centos
-
 7a0437f04f83: Pull complete
-
 Digest: sha256:5528e8b1b1719d34604c87e11dcd1c0a20bedf46e83b5632cdeac91b8c04efc1
-
 Status: Downloaded newer image for centos:latest
-
 ---> 300e315adb2f
-
 Step 2/10 : MAINTAINER qj<qiaojun2002@163.com>
-
 ---> Running in 946c0366bcd4
-
 Removing intermediate container 946c0366bcd4
-
 ---> 06cb0004f73f
-
 Step 3/10 : ENV MYPATH /usr/local
-
 ---> Running in 9a42640297ce
-
 Removing intermediate container 9a42640297ce
-
 ---> 2dfd922108a3
-
 Step 4/10 : WORKDIR $MYPATH
-
 ---> Running in 321f0ebe53f8
-
 Removing intermediate container 321f0ebe53f8
-
 ---> a99d170ce4a1
-
 Step 5/10 : RUN yum -y install vim
-
 ---> Running in 716a53b879c7
-
 CentOS Linux 8 - AppStream                      1.5 MB/s | 6.3 MB     00:04
-
 CentOS Linux 8 - BaseOS                         1.0 MB/s | 2.3 MB     00:02
-
 CentOS Linux 8 - Extras                          16 kB/s | 9.6 kB     00:00
-
 Dependencies resolved.
 
 ================================================================================
@@ -963,281 +853,151 @@ Dependencies resolved.
 Package             Arch        Version                   Repository      Size
 
 ================================================================================
-
 Installing:
-
 vim-enhanced        x86\_64      2:8.0.1763-15.el8         appstream      1.4 M
-
 Installing dependencies:
-
 gpm-libs            x86\_64      1.20.7-15.el8             appstream       39 k
-
 vim-common          x86\_64      2:8.0.1763-15.el8         appstream      6.3 M
-
 vim-filesystem      noarch      2:8.0.1763-15.el8         appstream       48 k
-
 which               x86\_64      2.21-12.el8               baseos          49 k
-
 Transaction Summary
-
 ================================================================================
-
 Install  5 Packages
-
 Total download size: 7.8 M
-
 Installed size: 30 M
-
 Downloading Packages:
-
 (1/5): gpm-libs-1.20.7-15.el8.x86\_64.rpm        194 kB/s |  39 kB     00:00
-
 (2/5): vim-filesystem-8.0.1763-15.el8.noarch.rp 310 kB/s |  48 kB     00:00
-
 (3/5): which-2.21-12.el8.x86\_64.rpm              99 kB/s |  49 kB     00:00
-
 (4/5): vim-enhanced-8.0.1763-15.el8.x86\_64.rpm  1.0 MB/s | 1.4 MB     00:01
-
 (5/5): vim-common-8.0.1763-15.el8.x86\_64.rpm    1.9 MB/s | 6.3 MB     00:03
 
 --------------------------------------------------------------------------------
 
 Total                                           1.9 MB/s | 7.8 MB     00:04
-
 warning: /var/cache/dnf/appstream-02e86d1c976ab532/packages/gpm-libs-1.20.7-15.el8.x86\_64.rpm: Header V3 RSA/SHA256 Signature, key ID 8483c65d: NOKEY
-
 CentOS Linux 8 - AppStream                      1.6 MB/s | 1.6 kB     00:00
-
 Importing GPG key 0x8483C65D:
-
 Userid     : "CentOS (CentOS Official Signing Key) <security@centos.org>"
-
 Fingerprint: 99DB 70FA E1D7 CE22 7FB6 4882 05B5 55B3 8483 C65D
-
 From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
-
 Key imported successfully
-
 Running transaction check
-
 Transaction check succeeded.
-
 Running transaction test
-
 Transaction test succeeded.
-
 Running transaction
-
  Preparing        :                                                        1/1
-
  Installing       : which-2.21-12.el8.x86\_64                               1/5
-
  Installing       : vim-filesystem-2:8.0.1763-15.el8.noarch                2/5
-
  Installing       : vim-common-2:8.0.1763-15.el8.x86\_64                    3/5
-
  Installing       : gpm-libs-1.20.7-15.el8.x86\_64                          4/5
-
  Running scriptlet: gpm-libs-1.20.7-15.el8.x86\_64                          4/5
-
  Installing       : vim-enhanced-2:8.0.1763-15.el8.x86\_64                  5/5
-
  Running scriptlet: vim-enhanced-2:8.0.1763-15.el8.x86\_64                  5/5
-
  Running scriptlet: vim-common-2:8.0.1763-15.el8.x86\_64                    5/5
-
  Verifying        : gpm-libs-1.20.7-15.el8.x86\_64                          1/5
-
  Verifying        : vim-common-2:8.0.1763-15.el8.x86\_64                    2/5
-
  Verifying        : vim-enhanced-2:8.0.1763-15.el8.x86\_64                  3/5
-
  Verifying        : vim-filesystem-2:8.0.1763-15.el8.noarch                4/5
-
  Verifying        : which-2.21-12.el8.x86\_64                               5/5
 
 Installed:
-
  gpm-libs-1.20.7-15.el8.x86\_64         vim-common-2:8.0.1763-15.el8.x86\_64
-
  vim-enhanced-2:8.0.1763-15.el8.x86\_64 vim-filesystem-2:8.0.1763-15.el8.noarch
-
  which-2.21-12.el8.x86\_64
-
 Complete!
 
 Removing intermediate container 716a53b879c7
-
 ---> 3e56881f32f3
-
 Step 6/10 : RUN yum -y install net-tools
-
 ---> Running in 08e74effed03
-
 Last metadata expiration check: 0:00:12 ago on Fri May 14 17:37:27 2021.
-
 Dependencies resolved.
-
 ================================================================================
-
 Package         Architecture Version                        Repository    Size
-
 ================================================================================
-
 Installing:
-
 net-tools       x86\_64       2.0-0.52.20160912git.el8       baseos       322 k
-
 Transaction Summary
-
 ================================================================================
-
 Install  1 Package
-
 Total download size: 322 k
-
 Installed size: 942 k
-
 Downloading Packages:
-
 net-tools-2.0-0.52.20160912git.el8.x86\_64.rpm   613 kB/s | 322 kB     00:00
-
 --------------------------------------------------------------------------------
-
 Total                                           338 kB/s | 322 kB     00:00
 
 Running transaction check
-
 Transaction check succeeded.
-
 Running transaction test
-
 Transaction test succeeded.
-
 Running transaction
-
  Preparing        :                                                        1/1
-
  Installing       : net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
-
  Running scriptlet: net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
-
  Verifying        : net-tools-2.0-0.52.20160912git.el8.x86\_64              1/1
-
 Installed:
-
  net-tools-2.0-0.52.20160912git.el8.x86\_64
-
 Complete!
-
 Removing intermediate container 08e74effed03
-
 ---> 60ee298a7584
-
 Step 7/10 : EXPOSE 80
-
 ---> Running in 5aa1259c277c
-
 Removing intermediate container 5aa1259c277c
-
 ---> fdc9eb2e97df
-
 Step 8/10 : CMD echo $MYPATH
-
 ---> Running in 83afdd200304
-
 Removing intermediate container 83afdd200304
-
 ---> 510a6a5e710f
-
 Step 9/10 : CMD echo "-----------------build end-----------------"
-
 ---> Running in d9362f4c5cde
-
 Removing intermediate container d9362f4c5cde
-
 ---> 6251a37b03da
-
 Step 10/10 : CMD /bin/bash
-
 ---> Running in 69c8acd6cce6
-
 Removing intermediate container 69c8acd6cce6
-
 ---> b6df0e7c5686
-
 Successfully built b6df0e7c5686
-
 Successfully tagged mycentos:0.1
 
 #test
-
 [root@localhost dockerfile]# docker run -it mycentos:0.1
-
 [root@3d6c237f79da local]# pwd
-
 /usr/local
-
 [root@3d6c237f79da local]# ifconfig
-
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-
        inet 172.17.0.2  netmask 255.255.0.0  broadcast 172.17.255.255
-
        ether 02:42:ac:11:00:02  txqueuelen 0  (Ethernet)
-
        RX packets 8  bytes 656 (656.0 B)
-
        RX errors 0  dropped 0  overruns 0  frame 0
-
        TX packets 0  bytes 0 (0.0 B)
-
        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
-
        inet 127.0.0.1  netmask 255.0.0.0
-
        loop  txqueuelen 1000  (Local Loopback)
-
        RX packets 0  bytes 0 (0.0 B)
-
        RX errors 0  dropped 0  overruns 0  frame 0
-
        TX packets 0  bytes 0 (0.0 B)
-
        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 #镜像的构建步骤
 
 [root@localhost dockerfile]# docker history b6df0e7c5686
-
 IMAGE          CREATED         CREATED BY                                      S                                                                             IZE      COMMENT
-
 b6df0e7c5686   7 minutes ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "/bin…   0                                                                             B
-
 6251a37b03da   7 minutes ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "echo…   0                                                                             B
-
 510a6a5e710f   7 minutes ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "echo…   0                                                                             B
-
 fdc9eb2e97df   7 minutes ago   /bin/sh -c #(nop)  EXPOSE 80                    0                                                                             B
-
 60ee298a7584   7 minutes ago   /bin/sh -c yum -y install net-tools             2                                                                             3.4MB
-
 3e56881f32f3   8 minutes ago   /bin/sh -c yum -y install vim                   5                                                                             8.1MB
-
 a99d170ce4a1   8 minutes ago   /bin/sh -c #(nop) WORKDIR /usr/local            0                                                                             B
-
 2dfd922108a3   8 minutes ago   /bin/sh -c #(nop)  ENV MYPATH=/usr/local        0                                                                             B
-
 06cb0004f73f   8 minutes ago   /bin/sh -c #(nop)  MAINTAINER qj<qiaojun2002…   0                                                                             B
-
 300e315adb2f   5 months ago    /bin/sh -c #(nop)  CMD ["/bin/bash"]            0                                                                             B
-
 <missing>      5 months ago    /bin/sh -c #(nop)  LABEL org.label-schema.sc…   0                                                                             B
-
 <missing>      5 months ago    /bin/sh -c #(nop) ADD file:bd7a2aed6ede423b7…   2    
-
 ```
 
 
