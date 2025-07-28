@@ -4,3 +4,4 @@
 - [Java Thread Study](thread)
 - [Zookeeper Study](zookeeper)
 - [Markdown Study](markdown)
+- [Terraform Study](terraform)
