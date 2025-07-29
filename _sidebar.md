@@ -6,3 +6,4 @@
 - [Markdown Study](markdown)
 - [Terraform Study](terraform)
 - [RocketMQ Study](rocketMQ)
+- [English Suffix Study](suffix)
