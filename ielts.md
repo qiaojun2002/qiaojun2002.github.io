@@ -198,56 +198,56 @@
 | gourmet   | ˈɡʊəmeɪ   | Gourmet food is nicer or more unusual or sophisticated than ordinary food, and is often more expensive. 菜肴精美的  |    |    | 
 |  hence  | hens   |  You use hence to indicate that the statement you are about to make is a consequence of what you have just said. 因此 |    |    | 
 |   intrinsic | ɪnˈtrɪnzɪk   |If something has intrinsic value or intrinsic interest, it is valuable or interesting because of its basic nature or character, and not because of its connection with other things. 内在的; 本质的   |    |    | 
-|   ministry |    |   |    |  
-|  ordeal  |    |   |    |  
-|  outspoken  |    |   |    |  
-|  overwork  |    |   |    |  
-|  kettle  |    |   |    |  
-|  particular  |    |   |    |  
-|  pungent  |    |   |    |  
-|  snore  |    |   |    |  
-|  soundly  |    |   |    |  
-|  superintendent  |    |   |    |  
-|  alternate  |    |   |    |  
-| apologetic   |    |   |    |  
-|  benigh  |    |   |    |  
-|  char  |    |   |    |  
-|  clarify  |    |   |    |  
-|  overdose  |    |   |    |  
-|  persuasion  |    |   |    |  
-|  relay  |    |   |    |  
-|  reluctance  |    |   |    |  
-|  restate  |    |   |    |  
-|  elude  |    |   |    |  
-|  fend  |    |   |    |  
-|  fictitious  |    |   |    |  
-|  ashore  |    |   |    |  
-|  contradict  |    |   |    |  
-|  counterpart  |    |   |    |  
-|  devoid  |    |   |    |  
-|  diverge  |    |   |    |  
-| altar   |    |   |    |  
-|  arthritis  |    |   |    |  
-|  botany  |    |   |    |  
-|  credible  |    |   |    |  
-|  deceased  |    |   |    |  
-|  sparse  |    |   |    |  
-|  surplus  |    |   |    |  
-|  theorize  |    |   |    |  
-|  verify  |    |   |    |  
-|   vigorous |    |   |    |  
-|  hone  |    |   |    |  
-|  mash  |    |   |    |  
-|  ornate  |    |   |    |  
-|  pneumonia  |    |   |    |  
-|  psychic  |    |   |    |  
-|  deception  |    |   |    |  
-|  decipher  |    |   |    |  
-|  dung  |    |   |    |  
-|  dusk  |    |   |    |  
-|   gratify |    |   |    |  
-|  strap  |    |   |    |  
-|  tangle  |    |   |    |  
+|   ministry | ˈmɪnɪstri   | In many countries, a ministry is a government department which deals with a particular thing or area of activity, for example trade, defence, or transportation. (政府的) 部  |    |  
+|  ordeal  |ɔːˈdiːl    |If you describe an experience or situation as an ordeal, you think it is difficult and stressful. 煎熬   |    |  
+|  outspoken  |  aʊtˈspəʊkən  | Someone who is outspoken gives their opinions about things openly and honestly, even if they are likely to shock or offend people. 直言不讳的  |    |  
+|  overwork  | ˌəʊvəˈwɜːk   | If you overwork or if someone overworks you, you work too hard, and are likely to become very tired or sick. 使工作过度; 工作过度  |    |  
+|  kettle  |ˈket(ə)l    |A kettle is a covered container that you use for boiling water. It has a handle, and a spout for the water to come out of. 水壶   |    |  
+|  particular  | pəˈtɪkjələ   | You use particular to emphasize that you are talking about one thing or one kind of thing rather than other similar ones. 专指的  |    |  
+|  pungent  | ˈpʌndʒənt   |Something that is pungent has a strong, sharp smell or taste which is often so strong that it is unpleasant. 刺鼻的; 刺激味觉的   |    |  
+|  snore  | snɔː(r)   | When someone who is asleep snores, they make a loud noise each time they breathe. 打鼾  |    |  
+|  soundly  | ˈsaʊndli   | If someone is soundly defeated or beaten, they are defeated or beaten thoroughly. 彻底地 If a decision, opinion, or statement is soundly based, there are sensible or reliable reasons behind it. 可靠地 |    |  
+|  superintendent  | ˌsuːpərɪnˈtendənt   | A superintendent is a person who is responsible for a particular thing or the work done in a particular department. 主管  |    |  
+|  alternate  |ɔːlˈtɜːnət    | When you alternate two things, you keep using one then the other. When one thing alternates with another, the first regularly occurs after the other. 交替  |    |  
+| apologetic   |  əˌpɒləˈdʒetɪk  |  If you are apologetic, you show or say that you are sorry for causing trouble for someone, for hurting them, or for disappointing them. 表达歉意的 |    |  
+|  benign  |  bɪˈnaɪn  | You use benign to describe someone who is kind, gentle, and harmless. 和善的  |    |  
+|  char  | tʃɑː(r)   | If food chars or if you char it, it burns slightly and turns black as it is cooking. 烧焦; 烤焦  |    |  
+|  clarify  | ˈklærəfaɪ   |To clarify something means to make it easier to understand, usually by explaining it in more detail. 澄清   |    |  
+|  overdose  | ˈəʊvədəʊs   | If someone takes an overdose of a drug, they take more of it than is safe. (用药) 过量  |    |  
+|  persuasion  | pəˈsweɪʒ(ə)n   | Persuasion is the act of persuading someone to do something or to believe that something is true. 说服  |    |  
+|  relay  |  ˈriːleɪ  |If you relay something that has been said to you, you repeat it to another person. 转告   |    |  
+|  reluctance  | rɪˈlʌktəns   | 不情愿，勉强  |    |  
+|  restate  | ˌriːˈsteɪt   | If you restate something, you say it again in words or writing, usually in a slightly different way. 重申  |    |  
+|  elude  |  ɪˈluːd  |  If something that you want eludes you, you fail to obtain it. 不为…所获得 |    |  
+|  fend  |  fend  |If you have to fend for yourself, you have to look after yourself without relying on help from anyone else. 照料 (自己)   |    |  
+|  fictitious  | fɪkˈtɪʃəs   |Fictitious is used to describe something that is false or does not exist, although some people claim that it is true or exists. 虚假的; 虚幻的   |    |  
+|  ashore  | əˈʃɔː(r)   | Someone or something that comes ashore comes from the sea onto the shore. 到岸上地  |    |  
+|  contradict  |ˌkɒntrəˈdɪkt    | If you contradict someone, you tell them that what they have just said is wrong, or suggest that it is wrong by saying something different. 反驳  |    |  
+|  counterpart  |ˈkaʊntəpɑːt    | Someone's or something's counterpart is another person or thing that has a similar function or position in a different place. 对应的人或物  |    |  
+|  devoid  |dɪˈvɔɪd    |If you say that someone or something is devoid of a quality or thing, you are emphasizing that they have none of it. 全无的   |    |  
+|  diverge  | daɪˈvɜːdʒ   | If one thing diverges from another similar thing, the first thing becomes different from the second or develops differently from it. You can also say that two things diverge. 相异  |    |  
+| altar   | ɔːltə(r)   |An altar is a holy table in a church or temple. 圣坛   |    |  
+|  arthritis  | ɑːˈθraɪtɪs   |Arthritis is a medical condition in which the joints in someone's body are swollen and painful. 关节炎   |    |  
+|  botany  | ˈbɒtəni   |Botany is the scientific study of plants. 植物学   |    |  
+|  credible  | kredəb(ə)l   |Credible means able to be trusted or believed. 可信的   |    |  
+|  deceased  |dɪˈsiːst   | The deceased is used to refer to a particular person or to particular people who have recently died. 死者  |    |  
+|  sparse  | spɑːs   | Something that is sparse is small in number or amount and spread out over an area. 稀疏的  |    |  
+|  surplus  | ˈsɜːpləs   | If there is a surplus of something, there is more than is needed. 过剩  |    |  
+|  theorize  | ˈθɪəraɪz   |  If you theorize that something is true or theorize about it, you develop an abstract idea or set of ideas about something in order to explain it. 从理论上说明 |    |  
+|  verify  | ˈverɪfaɪ   | If you verify something, you check that it is true by careful examination or investigation. 核实  |    |  
+|   vigorous | ˈvɪɡərəs   | Vigorous physical activities involve using a lot of energy, usually to do short and repeated actions. 用力的  |    |  
+|  hone  | həʊn   | a fine whetstone, esp for sharpening razors 磨刀石 If you hone something, for example a skill, technique, idea, or product, you carefully develop it over a long period of time so that it is exactly right for your purpose. 磨砺  |    |  
+|  mash  |mæʃ    |If you mash food that is solid but soft, you crush it so that it forms a soft mass. 把…捣成糊状   |    |  
+|  ornate  | ɔːˈneɪt   | An ornate building, piece of furniture, or object is decorated with complicated patterns or shapes. 装饰华丽的  |    |  
+|  pneumonia  | njuːˈməʊniə   | Pneumonia is a serious disease that affects your lungs and makes it difficult for you to breathe. 肺炎  |    |  
+|  psychic  | ˈsaɪkɪk   |If you believe that someone is psychic or has psychic powers, you believe that they have strange mental powers, such as being able to read the minds of other people or to see into the future. 有特异功能的   |    |  
+|  deception  |dɪˈsepʃn   |  Deception is the act of deceiving someone or the state of being deceived by someone. 欺骗; 受骗 |    |  
+|  decipher  |  dɪˈsaɪfə(r)  | If you decipher a piece of writing or a message, you work out what it says, even though it is very difficult to read or understand. 破译  |    |  
+|  dung  |  dʌŋ  | Dung is faeces from animals, especially from large animals such as cattle and horses. (大型动物如牛、马的) 粪  |    |  
+|  dusk  | dʌsk   | Dusk is the time just before night when the daylight has almost gone but when it is not completely dark. 黄昏  |    |  
+|   gratify |ˈɡrætɪfaɪ    | If you are gratified by something, it gives you pleasure or satisfaction. 使高兴; 使满意  |    |  
+|  strap  | stræp   |A strap is a narrow piece of leather, cloth, or other material. Straps are used to carry things, fasten things together, or to hold a piece of clothing in place. 带子   |    |  
+|  tangle  | ˈtæŋɡ(ə)l   |A tangle of something is a mass of it twisted together in a messy way. 乱糟糟的一团 If something is tangled or tangles, it becomes twisted together in a messy way. 使缠结; 缠结   |    |  
 |   vanity |    |   |    |  
 |  vie  |    |   |    |  
 |  vulgar  |    |   |    |  
