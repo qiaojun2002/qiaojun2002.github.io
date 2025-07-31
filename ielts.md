@@ -298,56 +298,56 @@
 |  omen  | ˈəʊmən   | If you say that something is an omen, you think it indicates what is likely to happen in the future and whether it will be good or bad. 预兆  |    |  
 |  sideways  | ˈsaɪdweɪz   | Sideways means from or toward the side of something or someone. 从一旁地; 向一旁地  |    |  
 |  sob  | sɒb   | When someone sobs, they cry in a noisy way, breathing in short breaths. 抽噎  |    |  
-|  speck  |    |   |    |  
-|  upbringing  |    |   |    |  
-|  advocate  |    |   |    |  
-|  civilian  |    |   |    |  
-|  commodity  |    |   |    |  
-|  conquest  |    |   |    |  
-|  disclose  |    |   |    |  
-|  dynamics  |    |   |    |  
-|  enroll  |    |   |    |  
-|  envious  |    |   |    |  
-|  euphoria  |    |   |    |  
-|  bliss  |    |   |    |  
-|  butler  |    |   |    |  
-| cramp   |    |   |    |  
-|  dilapidated  |    |   |    |  
-|  evoke  |    |   |    |  
-|  farewell  |    |   |    |  
-|  faucet  |    |   |    |  
-|  flaw  |    |   |    |  
-|  filth  |    |   |    |  
-|  slate  |    |   |    |  
-|  stool  |    |   |    |  
-|  testament  |    |   |    |  
-|  timber  |    |   |    |  
-|  valve  |    |   |    |  
-|  collaborate  |    |   |    |  
-|  compile  |    |   |    |  
-|  counteract  |    |   |    |  
-| curb   |    |   |    |  
-|  diagnose  |    |   |    |  
-|  enact  |    |   |    |  
-|  federation  |    |   |    |  
-|  gross  |    |   |    |  
-|  humane  |    |   |    |  
-|  intolerable  |    |   |    |  
-|  needy  |    |   |    |  
-|  onset  |    |   |    |  
-|  pledge  |    |   |    |  
-|  prohibit  |    |   |    |  
-|  rash  |    |   |    |  
-| render   |    |   |    |  
-|  smallpox  |    |   |    |  
-| transmit   |    |   |    |  
-|  vow  |    |   |    |  
-|  camouflage  |    |   |    |  
-|  contemplate  |    |   |    |  
-|   contend |    |   |    |  
-|   cot |    |   |    |  
-|  enlist  |    |   |    |  
-|  outfit  |    |   |    |  
+|  speck  | spek   |A speck is a very small stain, mark, or shape. 污点; 斑迹   |    |  
+|  upbringing  | ˈʌpbrɪŋɪŋ   | Your upbringing is the way that your parents treat you and the things that they teach you when you are growing up. 教养  |    |  
+|  advocate  | ˈædvəkeɪt   | If you advocate a particular action or plan, you recommend it publicly. 提倡  |    |  
+|  civilian  | səˈvɪliən   | In a military situation, a civilian is anyone who is not a member of the armed forces. 平民  |    |  
+|  commodity  | kəˈmɑːdəti   | A commodity is something that is sold for money. 商品  |    |  
+|  conquest  | ˈkɑːŋkwest   | Conquest is the act of conquering a country or group of people. 征服  |    |  
+|  disclose  | dɪsˈkloʊz   | If you disclose new or secret information, you tell people about it. 透露  |    |  
+|  dynamics  | daɪˈnæmɪks   | the branch of mechanics concerned with the forces that change or produce the motions of bodies 动力学  |    |  
+|  enroll  | enroll   | If you enrol or are enrolled at an institution or in a class, you officially join it. 注册  |    |  
+|  envious  | ˈenviəs   | If you are envious of someone, you want something that they have. 羡慕的  |    |  
+|  euphoria  | juːˈfɔːriə   |Euphoria is a feeling of intense happiness and excitement. 狂喜   |    |  
+|  bliss  | blɪs   | Bliss is a state of complete happiness. 极乐  |    |  
+|  butler  | ˈbʌtlər   | A butler is the most important male servant in a wealthy house. 男管家  |    |  
+| cramp   | kræmp   | A cramp is a sudden strong pain caused by a muscle suddenly contracting. You sometimes get cramps in a muscle after you have been making a physical effort over a long period of time. 抽筋  |    |  
+|  dilapidated  | dɪˈlæpɪdeɪtɪd   | A building that is dilapidated is old and in a generally bad condition. 破旧的  |    |  
+|  evoke  | ɪˈvoʊk   | To evoke a particular memory, idea, emotion, or response means to cause it to occur. 唤起 (记忆); 引起 (想法、情感、反应)  |    |  
+|  farewell  | ˌferˈwel   | Farewell means the same as . 别了 (L>同)(goodbye)  |    |  
+|  faucet  | ˈfɔːsɪt   | A faucet is a device that controls the flow of a liquid or gas from a pipe or container. Sinks and baths have faucets attached to them. 龙头; 阀门; 旋塞  |    |  
+|  flaw  | flɔː   | A flaw in something such as a theory or argument is a mistake in it, which causes it to be less effective or valid. (理论或论点中的) 欠缺  |    |  
+|  filth  | fɪlθ   |  Filth is a disgusting amount of dirt. |    |  
+|  slate  |sleɪt   | Slate is a dark grey rock that can be easily split into thin layers. Slate is often used for covering roofs. (常用来作屋顶建材的) 石板  |    |  
+|  stool  |stuːl    | A stool is a seat with legs but no support for your arms or back. 凳子  |    |  
+|  testament  | ˈtestəmənt   | If one thing is a testament to another, it shows that the other thing exists or is true. 证明  |    |  
+|  timber  | ˈtɪmbər   | Timber is wood that is used for building houses and making furniture. You can also refer to trees that are grown for this purpose as timber. 木材  |    |  
+|  valve  |  vælv  | A valve is a device attached to a pipe or a tube that controls the flow of air or liquid through the pipe or tube. 阀门  |    |  
+|  collaborate  | kəˈlæbəreɪt   | to work together with sb in order to produce or achieve sth合作；协作  |    |  
+|  compile  | kəmˈpaɪl   | When you compile something such as a report, book, or programme, you produce it by collecting and putting together many pieces of information. 汇编; 汇集  |    |  
+|  counteract  | ˌkaʊntərˈækt   | To counteract something means to reduce its effect by doing something that produces an opposite effect. 对…起反作用; 抵消  |    |  
+| curb   |  kɜːrb  | If you curb something, you control it and keep it within limits. 抑制  |    |  
+|  diagnose  |ˌdaɪəɡˈnoʊs    | If someone or something is diagnosed as having a particular illness or problem, their illness or problem is identified. If an illness or problem is diagnosed, it is identified. 诊断  |    |  
+|  enact  | ɪˈnækt   |When a government or authority enacts a proposal, they make it into a law. 通过   |    |  
+|  federation  | fedəˈreɪʃ(ə)n   | A federation is a federal country. 联邦制国家  |    |  
+|  gross  | ɡroʊs   | You use gross to describe something unacceptable or unpleasant to a very great amount, degree, or intensity. 严重的  |    |  
+|  humane  | hjuːˈmeɪn   | Humane people act in a kind, sympathetic way toward other people and animals, and try to do them as little harm as possible. 人道的  |    |  
+|  intolerable  | ɪnˈtɑːlərəb(ə)l   | If you describe something as intolerable, you mean that it is so bad or extreme that no one can bear it or tolerate it. 无法忍受的  |    |  
+|  needy  | ˈniːdi   |  Needy people do not have enough food, medicine, or clothing, or adequate houses. 贫困的 |    |  
+|  onset  | ˈɑːnset   | the beginning of sth, especially sth unpleasant开端，发生，肇始（尤指不快的事件）  |    |  
+|  pledge  |  pledʒ  | When someone makes a pledge, they make a serious promise that they will do something. 誓言  |    |  
+|  prohibit  | prəˈhɪbɪt   | If a law or someone in authority prohibits something, they forbid it or make it illegal. 禁止  |    |  
+|  rash  | ræʃ   |If someone is rash or does rash things, they act without thinking carefully first, and therefore make mistakes or behave foolishly. 轻率的   |    |  
+| render   |  ˈrendər  |You can use render with an adjective that describes a particular state to say that someone or something is changed into that state. For example, if someone or something makes a thing harmless, you can say that they render it harmless. 使成为; 使变得   |    |  
+|  smallpox  |ˈsmɔːlpɑːks    | Smallpox is a serious infectious disease that causes spots which leave deep marks on the skin. 天花  |    |  
+| transmit   | trænzˈmɪt   | When radio and television programmes, computer data, or other electronic messages are transmitted, they are sent from one place to another, using wires, radio waves, or satellites. 传播 (广播电视节目、计算机信息等)  |    |  
+|  vow  |  vaʊ  | If you vow to do something, you make a serious promise or decision that you will do it. 发誓  |    |  
+|  camouflage  | ˈkæməflɑːʒ   | Camouflage consists of things such as leaves, branches, or brown and green paint, which are used to make it difficult for an enemy to see military forces and equipment. (军事) 伪装  |    |  
+|  contemplate  | ˈkɑːntəmpleɪt   | If you contemplate an action, you think about whether to do it or not. 考虑  |    |  
+|   contend | kənˈtend   | If you contend with someone for something such as power, you compete with them to try to get it. 争夺 (权力等)  If you have to contend with a problem or difficulty, you have to deal with it or overcome it. 解决  If you contend that something is true, you state or argue that it is true. 辩称|    |  
+|   cot | kɑːt   | A cot is a narrow bed, usually made of canvas fitted over a frame which can be folded up. 折叠床  |    |  
+|  enlist  | ɪnˈlɪst   | If someone enlists or is enlisted, they join the army, navy, marines, or air force. 使入伍; 入伍 If you enlist the help of someone, you persuade them to help or support you in doing something. 赢得  |    |  
+|  outfit  |ˈaʊtfɪt    |  An outfit is a set of clothes. 全套服装 |    |  
 |  paw  |    |   |    |  
 |  quiver  |    |   |    |  
 |  stray  |    |   |    |  
