@@ -1,14 +1,14 @@
-| 单词 | 音标 | 英英 | 英汉| 例句 |
-| -- | -- | --  |-- | -- | 
-| stimulus | stɪmjələs  | any stimulating information or event; acts to arouse action | 刺激（物）, 促进因素； |  Regard each failure as a stimulus to further efforts.
-| outlook | ˈaʊtlʊk |Your outlook is your general attitude toward life | 人生观 | He had a practical outlook on life. | 
-| partiality | pɑːʃiˈæləti |favourable prejudice or bias | 偏见 | She has a partiality for exotic flowers.| 
-| overall | əʊvərˈɔːl   |  including all the things or people that are involved in a particular situation; general |综合的；总体的    | Overall I was disappointed.   | 
-| outdated | aʊtˈdeɪtɪd   | no longer useful because of being old-fashioned  | 过时的；陈旧的   | These figures are now outdated   | 
-| notorious | nəʊˈtɔːriəs   |To be notorious means to be well known for something bad | 声名狼藉的；臭名昭著的   | He was a notorious anti-Semite.   | 
-| stab |stæb    |If someone stabs you, they push a knife or sharp object into your body. | 刺，戳，捅   | It made Peter kick instead of stab   | 
-| shaft | ʃɑːft   |A shaft is a long thin piece of wood or metal that forms part of a spear, axe, golf club, or other object | 杆    | The depth of the shaft is 520 yards.   | 
-| sever |  sevə(r)  | to cut sth into two pieces  | 切开；割断；切下；割下   | I have my eyes on it: hardly three feet to sever me   | 
+| 单词 | 音标 | 翻译 | 例句 |
+| -- | -- | --  | -- | 
+| stimulus | stɪmjələs  | any stimulating information or event; acts to arouse action  刺激（物）, 促进因素； |  Regard each failure as a stimulus to further efforts.
+| outlook | ˈaʊtlʊk |Your outlook is your general attitude toward life  人生观 | He had a practical outlook on life. | 
+| partiality | pɑːʃiˈæləti |favourable prejudice or bias  偏见 | She has a partiality for exotic flowers.| 
+| overall | əʊvərˈɔːl   |  including all the things or people that are involved in a particular situation; general 综合的；总体的    | Overall I was disappointed.   | 
+| outdated | aʊtˈdeɪtɪd   | no longer useful because of being old-fashioned   过时的；陈旧的   | These figures are now outdated   | 
+| notorious | nəʊˈtɔːriəs   |To be notorious means to be well known for something bad  声名狼藉的；臭名昭著的   | He was a notorious anti-Semite.   | 
+| stab |stæb    |If someone stabs you, they push a knife or sharp object into your body.  刺，戳，捅   | It made Peter kick instead of stab   | 
+| shaft | ʃɑːft   |A shaft is a long thin piece of wood or metal that forms part of a spear, axe, golf club, or other object  杆    | The depth of the shaft is 520 yards.   | 
+| sever |  sevə(r)  | to cut sth into two pieces   切开；割断；切下；割下   | I have my eyes on it: hardly three feet to sever me   | 
 | referee | refəˈriː   |the official who controls the game in some sports   |    |    | 
 | consumption | kənˈsʌmpʃ(ə)n   | the act of using energy, food or materials; the amount used  |    |    | 
 | criteria | kraɪˈtɪəriə   | A criterion is a factor on which you judge or decide something  |    |    | 
@@ -68,7 +68,7 @@
 | bankrupt | ˈbæŋkrʌpt   | without enough money to pay what you owe  |    |    | 
 | compress | kəmˈpres   | to press or squeeze sth together or into a smaller space; to be pressed or squeezed in this way  |    |    | 
 | circuit |ˈsɜːkɪt    | a line, route, or journey around a place  |    |    | 
-| antibiotic | ˌæntibaɪˈɒtɪk   | a substance, for example penicillin , that can destroy or prevent the growth of bacteria and cure infections  | 抗菌素；抗生素（如青霉素）   |    | 
+| antibiotic | ˌæntibaɪˈɒtɪk   | a substance, for example penicillin , that can destroy or prevent the growth of bacteria and cure infections  抗菌素；抗生素（如青霉素）   |    | 
 | aggregate |ˈæɡrɪɡət    | a total number or amount made up of smaller amounts that are collected together  |    |    | 
 | personel | pɜːsəˈnel   | the people who work for an organization or one of the armed forces  |    |    | 
 | mortgage   | ˈmɔːɡɪdʒ   | a legal agreement by which a bank or similar organization lends you money to buy a house, etc., and you pay the money back over a particular number of years; the sum of money that you borrow  |    |    | 
@@ -95,7 +95,7 @@
 | manufacture   | ˌmænjuˈfæktʃə   | to make goods in large quantities, using machinery  |    |    | 
 |  mechanism  | ˈmekənɪzəm   |a set of moving parts in a machine that performs a task   |    |    | 
 | inventory   | ˈɪnvəntri   | a written list of all the objects, furniture, etc. in a particular building  |    |    | 
-|  inward  | ˈɪnwəd   |inside your mind and not shown to other people   |内心的；精神的    |    | 
+|  inward  | ˈɪnwəd   |inside your mind and not shown to other people 内心的；精神的    |    | 
 |  loaf  |  ləʊf  | an amount of bread that has been shaped and baked in one piec  |    |    | 
 |  oracle  |ˈɒrəkl    |  a place where people could go to ask the gods for advice or information about the future; the priest or priestess through whom the gods were thought to give their message |    |    | 
 |  behalf  |bɪˈhɑːf   | IN BEHALF OF SB IN SB'S BEHALF  in order to help sb；ON BEHALF OF SB ON SB'S BEHALF as the representative of sb or instead of them  |    |    | 
@@ -198,245 +198,245 @@
 | gourmet   | ˈɡʊəmeɪ   | Gourmet food is nicer or more unusual or sophisticated than ordinary food, and is often more expensive. 菜肴精美的  |    |    | 
 |  hence  | hens   |  You use hence to indicate that the statement you are about to make is a consequence of what you have just said. 因此 |    |    | 
 |   intrinsic | ɪnˈtrɪnzɪk   |If something has intrinsic value or intrinsic interest, it is valuable or interesting because of its basic nature or character, and not because of its connection with other things. 内在的; 本质的   |    |    | 
-|   ministry |    |   |    |    | 
-|  ordeal  |    |   |    |    | 
-|  outspoken  |    |   |    |    | 
-|  overwork  |    |   |    |    | 
-|  kettle  |    |   |    |    | 
-|  particular  |    |   |    |    | 
-|  pungent  |    |   |    |    | 
-|  snore  |    |   |    |    | 
-|  soundly  |    |   |    |    | 
-|  superintendent  |    |   |    |    | 
-|  alternate  |    |   |    |    | 
-| apologetic   |    |   |    |    | 
-|  benigh  |    |   |    |    | 
-|  char  |    |   |    |    | 
-|  clarify  |    |   |    |    | 
-|  overdose  |    |   |    |    | 
-|  persuasion  |    |   |    |    | 
-|  relay  |    |   |    |    | 
-|  reluctance  |    |   |    |    | 
-|  restate  |    |   |    |    | 
-|  elude  |    |   |    |    | 
-|  fend  |    |   |    |    | 
-|  fictitious  |    |   |    |    | 
-|  ashore  |    |   |    |    | 
-|  contradict  |    |   |    |    | 
-|  counterpart  |    |   |    |    | 
-|  devoid  |    |   |    |    | 
-|  diverge  |    |   |    |    | 
-| altar   |    |   |    |    | 
-|  arthritis  |    |   |    |    | 
-|  botany  |    |   |    |    | 
-|  credible  |    |   |    |    | 
-|  deceased  |    |   |    |    | 
-|  sparse  |    |   |    |    | 
-|  surplus  |    |   |    |    | 
-|  theorize  |    |   |    |    | 
-|  verify  |    |   |    |    | 
-|   vigorous |    |   |    |    | 
-|  hone  |    |   |    |    | 
-|  mash  |    |   |    |    | 
-|  ornate  |    |   |    |    | 
-|  pneumonia  |    |   |    |    | 
-|  psychic  |    |   |    |    | 
-|  deception  |    |   |    |    | 
-|  decipher  |    |   |    |    | 
-|  dung  |    |   |    |    | 
-|  dusk  |    |   |    |    | 
-|   gratify |    |   |    |    | 
-|  strap  |    |   |    |    | 
-|  tangle  |    |   |    |    | 
-|   vanity |    |   |    |    | 
-|  vie  |    |   |    |    | 
-|  vulgar  |    |   |    |    | 
-|   psychotic |    |   |    |    | 
-|  sinister  |    |   |    |    | 
-|  strife  |    |   |    |    | 
-|  therapeutic  |    |   |    |    | 
-|  congested  |    |   |    |    | 
-|  courier  |    |   |    |    | 
-|  deform  |    |   |    |    | 
-|  etiquette  |    |   |    |    | 
-|  exlusive  |    |   |    |    | 
-|  freight  |    |   |    |    | 
-|  garment  |    |   |    |    | 
-|  insomnia  |    |   |    |    | 
-|  intuitive  |    |   |    |    | 
-|  liable  |    |   |    |    | 
-|  socialize  |    |   |    |    | 
-|  suppress  |    |   |    |    | 
-|  tram  |    |   |    |    | 
-|  unsettle  |    |   |    |    | 
-|  warp  |    |   |    |    | 
-|  obsess  |    |   |    |    | 
-|  overboard  |    |   |    |    | 
-|  premium  |    |   |    |    | 
-|  privilege  |    |   |    |    | 
-|  propel  |    |   |    |    | 
-|  induce  |    |   |    |    | 
-|  inseparable  |    |   |    |    | 
-|  magnify  |    |   |    |    | 
-|  mainstream  |    |   |    |    | 
-|  sip  |    |   |    |    | 
-|  verge  |    |   |    |    | 
-|  wary  |    |   |    |    | 
-|  negligible  |    |   |    |    | 
-|  paralysis  |    |   |    |    | 
-|  pest  |    |   |    |    | 
-|  prevail  |    |   |    |    | 
-|  microbe  |    |   |    |    | 
-| accumulate   |    |   |    |    | 
-|  aerial  |    |   |    |    | 
-|  apparatus  |    |   |    |    | 
-|  avalanche  |    |   |    |    | 
-|  consistency  |    |   |    |    | 
-|  convection  |    |   |    |    | 
-| discharge   |    |   |    |    | 
-|  intact  |    |   |    |    | 
-|  omen  |    |   |    |    | 
-|  sideways  |    |   |    |    | 
-|  sob  |    |   |    |    | 
-|  speck  |    |   |    |    | 
-|  upbringing  |    |   |    |    | 
-|  advocate  |    |   |    |    | 
-|  civilian  |    |   |    |    | 
-|  commodity  |    |   |    |    | 
-|  conquest  |    |   |    |    | 
-|  disclose  |    |   |    |    | 
-|  dynamics  |    |   |    |    | 
-|  enroll  |    |   |    |    | 
-|  envious  |    |   |    |    | 
-|  euphoria  |    |   |    |    | 
-|  bliss  |    |   |    |    | 
-|  butler  |    |   |    |    | 
-| cramp   |    |   |    |    | 
-|  dilapidated  |    |   |    |    | 
-|  evoke  |    |   |    |    | 
-|  farewell  |    |   |    |    | 
-|  faucet  |    |   |    |    | 
-|  flaw  |    |   |    |    | 
-|  filth  |    |   |    |    | 
-|  slate  |    |   |    |    | 
-|  stool  |    |   |    |    | 
-|  testament  |    |   |    |    | 
-|  timber  |    |   |    |    | 
-|  valve  |    |   |    |    | 
-|  collaborate  |    |   |    |    | 
-|  compile  |    |   |    |    | 
-|  counteract  |    |   |    |    | 
-| curb   |    |   |    |    | 
-|  diagnose  |    |   |    |    | 
-|  enact  |    |   |    |    | 
-|  federation  |    |   |    |    | 
-|  gross  |    |   |    |    | 
-|  humane  |    |   |    |    | 
-|  intolerable  |    |   |    |    | 
-|  needy  |    |   |    |    | 
-|  onset  |    |   |    |    | 
-|  pledge  |    |   |    |    | 
-|  prohibit  |    |   |    |    | 
-|  rash  |    |   |    |    | 
-| render   |    |   |    |    | 
-|  smallpox  |    |   |    |    | 
-| transmit   |    |   |    |    | 
-|  vow  |    |   |    |    | 
-|  camouflage  |    |   |    |    | 
-|  contemplate  |    |   |    |    | 
-|   contend |    |   |    |    | 
-|   cot |    |   |    |    | 
-|  enlist  |    |   |    |    | 
-|  outfit  |    |   |    |    | 
-|  paw  |    |   |    |    | 
-|  quiver  |    |   |    |    | 
-|  stray  |    |   |    |    | 
-|  frontier  |    |   |    |    | 
-|  handbook  |    |   |    |    | 
-|  hesitant  |    |   |    |    | 
-|  lush  |    |   |    |    | 
-|  marrow  |    |   |    |    | 
-|  substantial  |    |   |    |    | 
-|  torch  |    |   |    |    | 
-|   tract |    |   |    |    | 
-| vigil   |    |   |    |    | 
-|  weary  |    |   |    |    | 
-|  adhere  |    |   |    |    | 
-| compassionate   |    |   |    |    | 
-|  contaminate  |    |   |    |    | 
-|  deficiency  |    |   |    |    | 
-|  metabolic  |    |   |    |    | 
-|  overcrowded  |    |   |    |    | 
-|  paramount  |    |   |    |    | 
-|  practitioner  |    |   |    |    | 
-|  provision  |    |   |    |    | 
-|  replenish  |    |   |    |    | 
-|  sterile  |    |   |    |    | 
-|  upgrade  |    |   |    |    | 
-|  viable  |    |   |    |    | 
-|  voluntary  |    |   |    |    | 
-|  premature  |    |   |    |    | 
-|  resent  |    |   |    |    | 
-| satire   |    |   |    |    | 
-| scrutiny   |    |   |    |    | 
-| segregate   |    |   |    |    | 
-|  accelerate  |    |   |    |    | 
-|  anew  |    |   |    |    | 
-|  defect  |    |   |    |    | 
-|  dreary  |    |   |    |    | 
-|  duplicate  |    |   |    |    | 
-|  innovative  |    |   |    |    | 
-|  launch  |    |   |    |    | 
-|  meteorological  |    |   |    |    | 
-|  penetrate  |    |   |    |    | 
-|   propulsion |    |   |    |    | 
-|  simulate  |    |   |    |    | 
-|  spur  |    |   |    |    | 
-|  stimulate  |    |   |    |    | 
-|  tenacious  |    |   |    |    | 
-|  hospitable  |    |   |    |    | 
-|  manor  |    |   |    |    | 
-|  monastery  |    |   |    |    | 
-|  nursery  |    |   |    |    | 
-| outstretched   |    |   |    |    | 
-|  beforehand  |    |   |    |    | 
-|  centigrade  |    |   |    |    | 
-|  concerto  |    |   |    |    | 
-|  condense  |    |   |    |    | 
-|  outmoded  |    |   |    |    | 
-|  personalize  |    |   |    |    | 
-|  pertain  |    |   |    |    | 
-|  primal  |    |   |    |    | 
-|  psychiatric  |    |   |    |    | 
-|  equate  |    |   |    |    | 
-|   inhale |    |   |    |    | 
-|   invoke |    |   |    |    | 
-|  lunar  |    |   |    |    | 
-| novelty   |    |   |    |    | 
-|   parcel |    |   |    |    | 
-|  profile  |    |   |    |    | 
-|  vivacious  |    |   |    |    | 
-|   winding |    |   |    |    | 
-|  electromagnetic  |    |   |    |    | 
-|   electron |    |   |    |    | 
-|  glide  |    |   |    |    | 
-|  ingenious  |    |   |    |    | 
-|  innovation  |    |   |    |    | 
-|  inclusion  |    |   |    |    | 
-|  intermediate  |    |   |    |    | 
-|  intermittent  |    |   |    |    | 
-|   fluctuate |    |   |    |    | 
-|  fro  |    |   |    |    | 
-|  reverse  |    |   |    |    | 
-| swarm   |    |   |    |    | 
-|  texture  |    |   |    |    | 
-| tickle   |    |   |    |    | 
-|  vibrant  |    |   |    |    | 
-|  mentor  |    |   |    |    | 
-|  photosynthesis  |    |   |    |    | 
-|  pollen  |    |   |    |    | 
-|  regain  |    |   |    |    | 
-|  coward  |    |   |    |    | 
-|  firsthand  |    |   |    |    | 
-|  earnest  |    |   |    |    | 
-|  ethnic  |    |   |    |    | 
+|   ministry |    |   |    |  
+|  ordeal  |    |   |    |  
+|  outspoken  |    |   |    |  
+|  overwork  |    |   |    |  
+|  kettle  |    |   |    |  
+|  particular  |    |   |    |  
+|  pungent  |    |   |    |  
+|  snore  |    |   |    |  
+|  soundly  |    |   |    |  
+|  superintendent  |    |   |    |  
+|  alternate  |    |   |    |  
+| apologetic   |    |   |    |  
+|  benigh  |    |   |    |  
+|  char  |    |   |    |  
+|  clarify  |    |   |    |  
+|  overdose  |    |   |    |  
+|  persuasion  |    |   |    |  
+|  relay  |    |   |    |  
+|  reluctance  |    |   |    |  
+|  restate  |    |   |    |  
+|  elude  |    |   |    |  
+|  fend  |    |   |    |  
+|  fictitious  |    |   |    |  
+|  ashore  |    |   |    |  
+|  contradict  |    |   |    |  
+|  counterpart  |    |   |    |  
+|  devoid  |    |   |    |  
+|  diverge  |    |   |    |  
+| altar   |    |   |    |  
+|  arthritis  |    |   |    |  
+|  botany  |    |   |    |  
+|  credible  |    |   |    |  
+|  deceased  |    |   |    |  
+|  sparse  |    |   |    |  
+|  surplus  |    |   |    |  
+|  theorize  |    |   |    |  
+|  verify  |    |   |    |  
+|   vigorous |    |   |    |  
+|  hone  |    |   |    |  
+|  mash  |    |   |    |  
+|  ornate  |    |   |    |  
+|  pneumonia  |    |   |    |  
+|  psychic  |    |   |    |  
+|  deception  |    |   |    |  
+|  decipher  |    |   |    |  
+|  dung  |    |   |    |  
+|  dusk  |    |   |    |  
+|   gratify |    |   |    |  
+|  strap  |    |   |    |  
+|  tangle  |    |   |    |  
+|   vanity |    |   |    |  
+|  vie  |    |   |    |  
+|  vulgar  |    |   |    |  
+|   psychotic |    |   |    |  
+|  sinister  |    |   |    |  
+|  strife  |    |   |    |  
+|  therapeutic  |    |   |    |  
+|  congested  |    |   |    |  
+|  courier  |    |   |    |  
+|  deform  |    |   |    |  
+|  etiquette  |    |   |    |  
+|  exlusive  |    |   |    |  
+|  freight  |    |   |    |  
+|  garment  |    |   |    |  
+|  insomnia  |    |   |    |  
+|  intuitive  |    |   |    |  
+|  liable  |    |   |    |  
+|  socialize  |    |   |    |  
+|  suppress  |    |   |    |  
+|  tram  |    |   |    |  
+|  unsettle  |    |   |    |  
+|  warp  |    |   |    |  
+|  obsess  |    |   |    |  
+|  overboard  |    |   |    |  
+|  premium  |    |   |    |  
+|  privilege  |    |   |    |  
+|  propel  |    |   |    |  
+|  induce  |    |   |    |  
+|  inseparable  |    |   |    |  
+|  magnify  |    |   |    |  
+|  mainstream  |    |   |    |  
+|  sip  |    |   |    |  
+|  verge  |    |   |    |  
+|  wary  |    |   |    |  
+|  negligible  |    |   |    |  
+|  paralysis  |    |   |    |  
+|  pest  |    |   |    |  
+|  prevail  |    |   |    |  
+|  microbe  |    |   |    |  
+| accumulate   |    |   |    |  
+|  aerial  |    |   |    |  
+|  apparatus  |    |   |    |  
+|  avalanche  |    |   |    |  
+|  consistency  |    |   |    |  
+|  convection  |    |   |    |  
+| discharge   |    |   |    |  
+|  intact  |    |   |    |  
+|  omen  |    |   |    |  
+|  sideways  |    |   |    |  
+|  sob  |    |   |    |  
+|  speck  |    |   |    |  
+|  upbringing  |    |   |    |  
+|  advocate  |    |   |    |  
+|  civilian  |    |   |    |  
+|  commodity  |    |   |    |  
+|  conquest  |    |   |    |  
+|  disclose  |    |   |    |  
+|  dynamics  |    |   |    |  
+|  enroll  |    |   |    |  
+|  envious  |    |   |    |  
+|  euphoria  |    |   |    |  
+|  bliss  |    |   |    |  
+|  butler  |    |   |    |  
+| cramp   |    |   |    |  
+|  dilapidated  |    |   |    |  
+|  evoke  |    |   |    |  
+|  farewell  |    |   |    |  
+|  faucet  |    |   |    |  
+|  flaw  |    |   |    |  
+|  filth  |    |   |    |  
+|  slate  |    |   |    |  
+|  stool  |    |   |    |  
+|  testament  |    |   |    |  
+|  timber  |    |   |    |  
+|  valve  |    |   |    |  
+|  collaborate  |    |   |    |  
+|  compile  |    |   |    |  
+|  counteract  |    |   |    |  
+| curb   |    |   |    |  
+|  diagnose  |    |   |    |  
+|  enact  |    |   |    |  
+|  federation  |    |   |    |  
+|  gross  |    |   |    |  
+|  humane  |    |   |    |  
+|  intolerable  |    |   |    |  
+|  needy  |    |   |    |  
+|  onset  |    |   |    |  
+|  pledge  |    |   |    |  
+|  prohibit  |    |   |    |  
+|  rash  |    |   |    |  
+| render   |    |   |    |  
+|  smallpox  |    |   |    |  
+| transmit   |    |   |    |  
+|  vow  |    |   |    |  
+|  camouflage  |    |   |    |  
+|  contemplate  |    |   |    |  
+|   contend |    |   |    |  
+|   cot |    |   |    |  
+|  enlist  |    |   |    |  
+|  outfit  |    |   |    |  
+|  paw  |    |   |    |  
+|  quiver  |    |   |    |  
+|  stray  |    |   |    |  
+|  frontier  |    |   |    |  
+|  handbook  |    |   |    |  
+|  hesitant  |    |   |    |  
+|  lush  |    |   |    |  
+|  marrow  |    |   |    |  
+|  substantial  |    |   |    |  
+|  torch  |    |   |    |  
+|   tract |    |   |    |  
+| vigil   |    |   |    |  
+|  weary  |    |   |    |  
+|  adhere  |    |   |    |  
+| compassionate   |    |   |    |  
+|  contaminate  |    |   |    |  
+|  deficiency  |    |   |    |  
+|  metabolic  |    |   |    |  
+|  overcrowded  |    |   |    |  
+|  paramount  |    |   |    |  
+|  practitioner  |    |   |    |  
+|  provision  |    |   |    |  
+|  replenish  |    |   |    |  
+|  sterile  |    |   |    |  
+|  upgrade  |    |   |    |  
+|  viable  |    |   |    |  
+|  voluntary  |    |   |    |  
+|  premature  |    |   |    |  
+|  resent  |    |   |    |  
+| satire   |    |   |    |  
+| scrutiny   |    |   |    |  
+| segregate   |    |   |    |  
+|  accelerate  |    |   |    |  
+|  anew  |    |   |    |  
+|  defect  |    |   |    |  
+|  dreary  |    |   |    |  
+|  duplicate  |    |   |    |  
+|  innovative  |    |   |    |  
+|  launch  |    |   |    |  
+|  meteorological  |    |   |    |  
+|  penetrate  |    |   |    |  
+|   propulsion |    |   |    |  
+|  simulate  |    |   |    |  
+|  spur  |    |   |    |  
+|  stimulate  |    |   |    |  
+|  tenacious  |    |   |    |  
+|  hospitable  |    |   |    |  
+|  manor  |    |   |    |  
+|  monastery  |    |   |    |  
+|  nursery  |    |   |    |  
+| outstretched   |    |   |    |  
+|  beforehand  |    |   |    |  
+|  centigrade  |    |   |    |  
+|  concerto  |    |   |    |  
+|  condense  |    |   |    |  
+|  outmoded  |    |   |    |  
+|  personalize  |    |   |    |  
+|  pertain  |    |   |    |  
+|  primal  |    |   |    |  
+|  psychiatric  |    |   |    |  
+|  equate  |    |   |    |  
+|   inhale |    |   |    |  
+|   invoke |    |   |    |  
+|  lunar  |    |   |    |  
+| novelty   |    |   |    |  
+|   parcel |    |   |    |  
+|  profile  |    |   |    |  
+|  vivacious  |    |   |    |  
+|   winding |    |   |    |  
+|  electromagnetic  |    |   |    |  
+|   electron |    |   |    |  
+|  glide  |    |   |    |  
+|  ingenious  |    |   |    |  
+|  innovation  |    |   |    |  
+|  inclusion  |    |   |    |  
+|  intermediate  |    |   |    |  
+|  intermittent  |    |   |    |  
+|   fluctuate |    |   |    |  
+|  fro  |    |   |    |  
+|  reverse  |    |   |    |  
+| swarm   |    |   |    |  
+|  texture  |    |   |    |  
+| tickle   |    |   |    |  
+|  vibrant  |    |   |    |  
+|  mentor  |    |   |    |  
+|  photosynthesis  |    |   |    |  
+|  pollen  |    |   |    |  
+|  regain  |    |   |    |  
+|  coward  |    |   |    |  
+|  firsthand  |    |   |    |  
+|  earnest  |    |   |    |  
+|  ethnic  |    |   |    |  
