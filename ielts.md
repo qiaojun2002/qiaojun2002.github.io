@@ -348,56 +348,56 @@
 |   cot | kɑːt   | A cot is a narrow bed, usually made of canvas fitted over a frame which can be folded up. 折叠床  |    |  
 |  enlist  | ɪnˈlɪst   | If someone enlists or is enlisted, they join the army, navy, marines, or air force. 使入伍; 入伍 If you enlist the help of someone, you persuade them to help or support you in doing something. 赢得  |    |  
 |  outfit  |ˈaʊtfɪt    |  An outfit is a set of clothes. 全套服装 |    |  
-|  paw  |    |   |    |  
-|  quiver  |    |   |    |  
-|  stray  |    |   |    |  
-|  frontier  |    |   |    |  
-|  handbook  |    |   |    |  
-|  hesitant  |    |   |    |  
-|  lush  |    |   |    |  
-|  marrow  |    |   |    |  
-|  substantial  |    |   |    |  
-|  torch  |    |   |    |  
-|   tract |    |   |    |  
-| vigil   |    |   |    |  
-|  weary  |    |   |    |  
-|  adhere  |    |   |    |  
-| compassionate   |    |   |    |  
-|  contaminate  |    |   |    |  
-|  deficiency  |    |   |    |  
-|  metabolic  |    |   |    |  
-|  overcrowded  |    |   |    |  
-|  paramount  |    |   |    |  
-|  practitioner  |    |   |    |  
-|  provision  |    |   |    |  
-|  replenish  |    |   |    |  
-|  sterile  |    |   |    |  
-|  upgrade  |    |   |    |  
-|  viable  |    |   |    |  
-|  voluntary  |    |   |    |  
-|  premature  |    |   |    |  
-|  resent  |    |   |    |  
-| satire   |    |   |    |  
-| scrutiny   |    |   |    |  
-| segregate   |    |   |    |  
-|  accelerate  |    |   |    |  
-|  anew  |    |   |    |  
-|  defect  |    |   |    |  
-|  dreary  |    |   |    |  
-|  duplicate  |    |   |    |  
-|  innovative  |    |   |    |  
-|  launch  |    |   |    |  
-|  meteorological  |    |   |    |  
-|  penetrate  |    |   |    |  
-|   propulsion |    |   |    |  
-|  simulate  |    |   |    |  
-|  spur  |    |   |    |  
-|  stimulate  |    |   |    |  
-|  tenacious  |    |   |    |  
-|  hospitable  |    |   |    |  
-|  manor  |    |   |    |  
-|  monastery  |    |   |    |  
-|  nursery  |    |   |    |  
+|  paw  | pɔː   |The paws of an animal such as a cat, dog, or bear are its feet, which have claws for gripping things and soft pads for walking on. 脚爪   |    |  
+|  quiver  | ˈkwɪvər   | If something quivers, it shakes with very small movements. 颤抖  |    |  
+|  stray  | streɪ   | If someone strays somewhere, they wander away from where they are supposed to be. 走失  |    |  
+|  frontier  |frʌnˈtɪr    | When you are talking about the western part of America before the twentieth century, you use frontier to refer to the area beyond the part settled by Europeans. (20世纪前美国) 西部边疆  |    |  
+|  handbook  | ˈhændbʊk   | A handbook is a book that gives you advice and instructions about a particular subject, tool, or machine. 手册; 使用说明书  |    |  
+|  hesitant  |  ˈhezɪtənt  | If you are hesitant about doing something, you do not do it quickly or immediately, usually because you are uncertain, embarrassed, or worried. 迟疑不决的  |    |  
+|  lush  |  lʌʃ  | Lush fields or gardens have a lot of very healthy grass or plants. 茂盛的  |    |  
+|  marrow  | ˈmæroʊ   | Marrow is the same as . 同bone marrow 髓，骨髓；精华；活力  |    |  
+|  substantial  | səbˈstænʃ(ə)l   | Substantial means large in amount or degree. 大量的; 很大程度的  |    |  
+|  torch  | tɔːrtʃ   | A torch is a long stick with burning material at one end, used to provide light or to set things on fire. 火把  |    |  
+|   tract | trækt   | A tract of land is a very large area of land. 大片  |    |  
+| vigil   | ˈvɪdʒɪl   | A vigil is a period of time when people remain quietly in a place, especially at night, for example,because they are praying or are making a political protest. (尤指夜间的) 值班; (祈祷或政治抗议的) 守夜  |    |  
+|  weary  | ˈwɪri   | If you are weary, you are very tired. 疲惫的  |    |  
+|  adhere  |ədˈhɪr    | If something adheres to something else, it sticks firmly to it. 紧贴  |    |  
+| compassionate   | kəmˈpæʃənət   |If you describe someone or something as compassionate, you mean that they feel or show pity, sympathy, and understanding for people who are suffering. 有同情心的; 表示同情的   |    |  
+|  contaminate  |  kənˈtæmɪneɪt  | If something is contaminated by dirt, chemicals, or radiation, they make it dirty or harmful. 污染  |    |  
+|  deficiency  |  dɪˈfɪʃ(ə)nsi  | the state of not having, or not having enough of, sth that is essential缺乏；缺少；不足  |    |  
+|  metabolic  |  ˌmetəˈbɑːlɪk  | Metabolic means relating to a person's or animal's metabolism. 新陈代谢的  |    |  
+|  overcrowded  | ˌoʊvərˈkraʊdɪd   |  An overcrowded place has too many things or people in it. 过于拥挤的 |    |  
+|  paramount  |  ˈpærəmaʊnt  | Something that is paramount or of paramount importance is more important than anything else. 首要的  |    |  
+|  practitioner  | prækˈtɪʃənər   | Doctors are sometimes referred to as practitioners or medical practitioners. 行医者  |    |  
+|  provision  | prəˈvɪʒ(ə)n   | The provision of something is the act of giving it or making it available to people who need or want it. 提供  |    |  
+|  replenish  | rɪˈplenɪʃ   | If you replenish something, you make it full or complete again. 重新充满; 再度装满  |    |  
+|  sterile  |ˈsterəl    |Something that is sterile is completely clean and free from germs. 无菌的   |    |  
+|  upgrade  | ˌʌpˈɡreɪd   |If equipment or services are upgraded, they are improved or made more efficient. 使升级   |    |  
+|  viable  |  vaɪəb(ə)l  | Something that is viable is capable of doing what it is intended to do. 可行的  |    |  
+|  voluntary  | ˈvɑːlənteri   | actions or activities are done because someone chooses to do them and not because they have been forced to do them. 自愿的  |    |  
+|  premature  | ˌpriːməˈtʃʊr   |Something that is premature happens earlier than usual or earlier than people expect. 提早的  |    |  
+|  resent  | rɪˈzent   | If you resent someone or something, you feel bitter and angry about them. 憎恨  |    |  
+| satire   | ˈsætaɪər   | Satire is the use of humour or exaggeration in order to show how foolish or wicked some people's behaviour or ideas are. 讽刺  |    |  
+| scrutiny   |  ˈskruːtəni  | If a person or thing is under scrutiny, they are being studied or observed very carefully. 仔细研究; 仔细观察  |    |  
+| segregate   |  ˈseɡrɪɡeɪt  |To segregate two groups of people or things means to keep them physically apart from each other. 隔离; 分开   |    |  
+|  accelerate  | əkˈseləreɪt   | If the process or rate of something accelerates or if something accelerates it, it gets faster and faster. 使加速; 加速  |    |  
+|  anew  | əˈnuː   | If you do something anew, you do it again, often in a different way from before. 重新地  |    |  
+|  defect  | ˈdiːfekt   | A defect is a fault or imperfection in a person or thing. 缺陷  |    |  
+|  dreary  |ˈdrɪri    | If you describe something as dreary, you mean that it is dull and depressing. 沉闷的; 枯燥无味的  |    |  
+|  duplicate  | ˈduːplɪkeɪt   | If you duplicate something that has already been done, you repeat or copy it. 复制  |    |  
+|  innovative  |ˈɪnəveɪtɪv    | Something that is innovative is new and original. 创新的; 革新的  |    |  
+|  launch  | lɔːntʃ   | To launch a rocket, missile, or satellite means to send it into the air or into space. 发射  |    |  
+|  meteorological  | miːtiərəˈlɑːdʒɪk(ə)l   | Meteorological means relating to meteorology. 气象学的  |    |  
+|  penetrate  | ˈpenətreɪt   | If something or someone penetrates a physical object or an area, they succeed in getting into it or passing through it. 进入; 穿透  |    |  
+|   propulsion | prəˈpʌlʃn   | Propulsion is the power that moves something, especially a vehicle, in a forward direction. 推进力  |    |  
+|  simulate  | ˈsɪmjuleɪt   | If you simulate an action or a feeling, you pretend that you are doing it or feeling it. 假装  |    |  
+|  spur  | spɜːr   | If one thing spurs you to do another, it encourages you to do it. 鼓动; 激励  |    |  
+|  stimulate  | ˈstɪmjuleɪt   | To stimulate something means to encourage it to begin or develop further. 鼓励; 刺激  |    |  
+|  tenacious  | təˈneɪʃəs   | If you are tenacious, you are very determined and do not give up easily. 执著的  |    |  
+|  hospitable  | hɑːspɪtəb(ə)l   | A hospitable person is friendly, generous, and welcoming to guests or people they have just met. 好客的; 殷勤周到的  |    |  
+|  manor  |  ˈmænər  | the manor house of a lord and the lands attached to it (中世纪欧洲的)庄园  |    |  
+|  monastery  | ˈmɑːnəsteri   | A monastery is a building or collection of buildings in which monks live. 修道院  |    |  
+|  nursery  | ˈnɜːrsəri   | A nursery is a place where children who are not old enough to go to school are cared for. 托儿所  |    |  
 | outstretched   |    |   |    |  
 |  beforehand  |    |   |    |  
 |  centigrade  |    |   |    |  
