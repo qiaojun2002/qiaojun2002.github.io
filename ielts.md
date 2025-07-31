@@ -248,56 +248,56 @@
 |   gratify |ˈɡrætɪfaɪ    | If you are gratified by something, it gives you pleasure or satisfaction. 使高兴; 使满意  |    |  
 |  strap  | stræp   |A strap is a narrow piece of leather, cloth, or other material. Straps are used to carry things, fasten things together, or to hold a piece of clothing in place. 带子   |    |  
 |  tangle  | ˈtæŋɡ(ə)l   |A tangle of something is a mass of it twisted together in a messy way. 乱糟糟的一团 If something is tangled or tangles, it becomes twisted together in a messy way. 使缠结; 缠结   |    |  
-|   vanity |    |   |    |  
-|  vie  |    |   |    |  
-|  vulgar  |    |   |    |  
-|   psychotic |    |   |    |  
-|  sinister  |    |   |    |  
-|  strife  |    |   |    |  
-|  therapeutic  |    |   |    |  
-|  congested  |    |   |    |  
-|  courier  |    |   |    |  
-|  deform  |    |   |    |  
-|  etiquette  |    |   |    |  
-|  exlusive  |    |   |    |  
-|  freight  |    |   |    |  
-|  garment  |    |   |    |  
-|  insomnia  |    |   |    |  
-|  intuitive  |    |   |    |  
-|  liable  |    |   |    |  
-|  socialize  |    |   |    |  
-|  suppress  |    |   |    |  
-|  tram  |    |   |    |  
-|  unsettle  |    |   |    |  
-|  warp  |    |   |    |  
-|  obsess  |    |   |    |  
-|  overboard  |    |   |    |  
-|  premium  |    |   |    |  
-|  privilege  |    |   |    |  
-|  propel  |    |   |    |  
-|  induce  |    |   |    |  
-|  inseparable  |    |   |    |  
-|  magnify  |    |   |    |  
-|  mainstream  |    |   |    |  
-|  sip  |    |   |    |  
-|  verge  |    |   |    |  
-|  wary  |    |   |    |  
-|  negligible  |    |   |    |  
-|  paralysis  |    |   |    |  
-|  pest  |    |   |    |  
-|  prevail  |    |   |    |  
-|  microbe  |    |   |    |  
-| accumulate   |    |   |    |  
-|  aerial  |    |   |    |  
-|  apparatus  |    |   |    |  
-|  avalanche  |    |   |    |  
-|  consistency  |    |   |    |  
-|  convection  |    |   |    |  
-| discharge   |    |   |    |  
-|  intact  |    |   |    |  
-|  omen  |    |   |    |  
-|  sideways  |    |   |    |  
-|  sob  |    |   |    |  
+|   vanity | ˈvænəti   | If you refer to someone's vanity, you are critical of them because they take great pride in their appearance or abilities. 虚荣  |    |  
+|  vie  | vaɪ   | If one person or thing is vying with another for something, the people or things are competing for it. 竞争  |    |  
+|  vulgar  | ˈvʌlɡə(r)   | If you describe something as vulgar, you think it is in bad taste or of poor artistic quality. 粗俗的  |    |  
+|   psychotic | saɪˈkɒtɪk   | Someone who is psychotic has a type of severe mental illness. 精神错乱的  |    |  
+|  sinister  | ˈsɪnɪstə(r)   |Something that is sinister seems evil or harmful. 不祥的; 险恶的   |    |  
+|  strife  | straɪf   | Strife is strong disagreement or fighting. 冲突  |    |  
+|  therapeutic  | ˌθerəˈpjuːtɪk   | If something is therapeutic, it helps you to relax or to feel better about things, especially about a situation that made you unhappy. (尤指不开心的情况下) 使人放松心情的  |    |  
+|  congested  | kənˈdʒestɪd   | A congested road or area is extremely crowded and blocked with traffic or people. 拥塞的  |    |  
+|  courier  | kʊriə(r)   | A courier is a person who is paid to take letters and packages direct from one place to another. 信使  |    |  
+|  deform  | dɪˈfɔːm   | If something deforms a person's body or something else, it causes it to have an unnatural shape. In technical English, you can also say that the second thing deforms when it changes to an unnatural shape. 使成畸形  |    |  
+|  etiquette  |  ˈetɪkət  | Etiquette is a set of customs and rules for polite behaviour, especially among a particular class of people or in a particular profession. (尤指特定阶层的) 礼仪; (尤指特定行业的) 规矩  |    |  
+|  exclusive  | ɪkˈskluːsɪv   | Something that is exclusive is used or owned by only one person or group, and not shared with anyone else. 专用的; 独有的  |    |  
+|  freight  | freɪt   |Freight is the movement of goods by trucks, trains, ships, or aeroplanes. 货运  |    |  
+|  garment  | ɡɑːmənt   | A garment is a piece of clothing; used especially in contexts where you are talking about the manufacture or sale of clothes. 衣服 (尤用于衣服生产和销售的领域)  |    |  
+|  insomnia  | ɪnˈsɒmniə   |Someone who suffers from insomnia finds it difficult to sleep. 失眠   |    |  
+|  intuitive  |ɪnˈtjuːɪtɪv    | If you have an intuitive idea or feeling about something, you feel that it is true although you have no evidence or proof of it. 直觉的  |    |  
+|  liable  |  laɪəb(ə)l  | When something is liable to happen, it is very likely to happen. 很有可能的  |    |  
+|  socialize  | ˈsəʊʃəlaɪz   | If you socialize, you meet other people socially, for example at parties. 社交  |    |  
+|  suppress  | səˈpres   |If someone in authority suppresses an activity, they prevent it from continuing, by using force or making it illegal. 镇压; 压制   |    |  
+|  tram  | træm   |A tram is a public transportation vehicle, usually powered by electricity from wires above it, which travels along rails laid in the surface of a street. 有轨电车   |    |  
+|  unsettle  | ʌnˈset(ə)l   | If something unsettles you, it makes you feel rather worried or uncertain. 使不安  |    |  
+|  warp  |  wɔːp  | If something warps or is warped, it becomes damaged by bending or curving, often because of the effect of heat or water. (尤指因受潮、受热而) 翘曲  |    |  
+|  obsess  |  əbˈses  |If something obsesses you or if you obsess about something, you keep thinking about it and find it difficult to think about anything else. 困扰; 心神不宁   |    |  
+|  overboard  |  ˈəʊvəbɔːd  | If you fall overboard, you fall over the side of a boat into the water. 从船上 (落) 入水中  |    |  
+|  premium  | ˈpriːmiəm   | A premium is a sum of money that you pay regularly to an insurance company for an insurance policy. 保险费  |    |  
+|  privilege  |ˈprɪvəlɪdʒ    | A privilege is a special right or advantage that only one person or group has. (某人、某团体拥有的) 特权  |    |  
+|  propel  |prəˈpel    | To propel something in a particular direction means to cause it to move in that direction. 推进  |    |  
+|  induce  |  ɪnˈdjuːs  | To induce a state or condition means to cause it. 引起  |    |  
+|  inseparable  |  ɪnˈseprəbl  | If one thing is inseparable from another, the things are so closely connected that they cannot be considered separately. 分不开的  |    |  
+|  magnify  |  ˈmæɡnɪfaɪ  | To magnify an object means to make it appear larger than it really is, by means of a special lens or mirror. 放大  |    |  
+|  mainstream  | ˈmeɪnstriːm   | People, activities, or ideas that are part of the mainstream are regarded as the most typical, normal, and conventional because they belong to the same group or system as most others of their kind. 主流  |    |  
+|  sip  | sɪp   | If you sip a drink or sip at it, you drink by taking just a small amount at a time. 小口地喝  |    |  
+|  verge  |  vɜːdʒ  | If you are on the verge of something, you are going to do it very soon or it is likely to happen or begin very soon. 即将  |    |  
+|  wary  |  ˈweəri  |If you are wary of something or someone, you are cautious because you do not know much about them and you believe they may be dangerous or cause problems. 小心的; 提防的   |    |  
+|  negligible  |  ˈneɡlɪdʒəb(ə)l  | An amount or effect that is negligible is so small that it is not worth considering or worrying about. 微不足道的  |    |  
+|  paralysis  |  pəˈræləsɪs  | Paralysis is the loss of the ability to move and feel in all or part of your body. 瘫痪  |    |  
+|  pest  | pest   | Pests are insects or small animals that damage crops or food supplies. 害虫; 有害的小动物  |    |  
+|  prevail  |prɪˈveɪl    | If a proposal, principle, or opinion prevails, it gains influence or is accepted, often after a struggle or argument. 占上风  |    |  
+|  microbe  | ˈmaɪkrəʊb  | A microbe is a very small, living thing, which you can only see if you use a microscope. 微生物  |    |  
+| accumulate   | əˈkjuːmjəleɪt   |When you accumulate things or when they accumulate, they collect or are gathered over a period of time. 积聚   |    |  
+|  aerial  | ˈeəriəl   | You talk about aerial attacks and aerial photographs to indicate that people or things on the ground are attacked or photographed by people in aeroplanes. 从空中的 (袭击等)  |    |  
+|  apparatus  | ˌæpəˈreɪtəs   | The apparatus of an organization or system is its structure and method of operation. (机构、体系的) 组织和运作方式  |    |  
+|  avalanche  |  ˈævəlɑːnʃ  | An avalanche is a large mass of snow that falls down the side of a mountain. 雪崩  |    |  
+|  consistency  |kənˈsɪstənsi    | Consistency is the quality or condition of being consistent. 连贯性; 一致性  |    |  
+|  convection  | kənˈvekʃn   | Convection is the process by which heat travels through air, water, and other gases and liquids. 对流  |    |  
+| discharge   | dɪsˈtʃɑːdʒ   |When someone is discharged from a hospital, prison, or one of the armed services, they are officially allowed to leave, or told that they must leave. 批准离开; 命令离开   |    |  
+|  intact  | ɪnˈtækt   | Something that is intact is complete and has not been damaged or changed. 完整无缺的  |    |  
+|  omen  | ˈəʊmən   | If you say that something is an omen, you think it indicates what is likely to happen in the future and whether it will be good or bad. 预兆  |    |  
+|  sideways  | ˈsaɪdweɪz   | Sideways means from or toward the side of something or someone. 从一旁地; 向一旁地  |    |  
+|  sob  | sɒb   | When someone sobs, they cry in a noisy way, breathing in short breaths. 抽噎  |    |  
 |  speck  |    |   |    |  
 |  upbringing  |    |   |    |  
 |  advocate  |    |   |    |  
