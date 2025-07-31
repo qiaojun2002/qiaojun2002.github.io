@@ -398,45 +398,45 @@
 |  manor  |  ˈmænər  | the manor house of a lord and the lands attached to it (中世纪欧洲的)庄园  |    |  
 |  monastery  | ˈmɑːnəsteri   | A monastery is a building or collection of buildings in which monks live. 修道院  |    |  
 |  nursery  | ˈnɜːrsəri   | A nursery is a place where children who are not old enough to go to school are cared for. 托儿所  |    |  
-| outstretched   |    |   |    |  
-|  beforehand  |    |   |    |  
-|  centigrade  |    |   |    |  
-|  concerto  |    |   |    |  
-|  condense  |    |   |    |  
-|  outmoded  |    |   |    |  
-|  personalize  |    |   |    |  
-|  pertain  |    |   |    |  
-|  primal  |    |   |    |  
-|  psychiatric  |    |   |    |  
-|  equate  |    |   |    |  
-|   inhale |    |   |    |  
-|   invoke |    |   |    |  
-|  lunar  |    |   |    |  
-| novelty   |    |   |    |  
-|   parcel |    |   |    |  
-|  profile  |    |   |    |  
-|  vivacious  |    |   |    |  
-|   winding |    |   |    |  
-|  electromagnetic  |    |   |    |  
-|   electron |    |   |    |  
-|  glide  |    |   |    |  
-|  ingenious  |    |   |    |  
-|  innovation  |    |   |    |  
-|  inclusion  |    |   |    |  
-|  intermediate  |    |   |    |  
-|  intermittent  |    |   |    |  
-|   fluctuate |    |   |    |  
-|  fro  |    |   |    |  
-|  reverse  |    |   |    |  
-| swarm   |    |   |    |  
-|  texture  |    |   |    |  
-| tickle   |    |   |    |  
-|  vibrant  |    |   |    |  
-|  mentor  |    |   |    |  
-|  photosynthesis  |    |   |    |  
-|  pollen  |    |   |    |  
-|  regain  |    |   |    |  
-|  coward  |    |   |    |  
-|  firsthand  |    |   |    |  
-|  earnest  |    |   |    |  
-|  ethnic  |    |   |    |  
+| outstretched   | ˌaʊtˈstretʃt   | If a part of the body of a person or animal is outstretched, it is stretched out as far as possible. 伸展开的  |    |  
+|  beforehand  | bɪˈfɔːrhænd   | If you do something beforehand, you do it earlier than a particular event. 事先; 预先  |    |  
+|  centigrade  | ˈsentɪɡreɪd   | Centigrade is a scale for measuring temperature, in which water freezes at 0 degrees and boils at 100 degrees. It is represented by the symbol °C. 摄氏的 (简写为C)  |    |  
+|  concerto  | kənˈtʃertoʊ   | A concerto is a piece of music written for one or more solo instruments and an orchestra. 协奏曲  |    |  
+|  condense  | kənˈdens   | If you condense something, especially a piece of writing or a speech, you make it shorter, usually by including only the most important parts. 简缩 (尤指文章、演讲稿) When a gas or vapour condenses, or is condensed, it changes into a liquid. (气体、蒸汽) 冷凝 |    |  
+|  outmoded  |  ˌaʊtˈmoʊdɪd  |If you describe something as outmoded, you mean that you think it is old-fashioned and no longer useful or relevant to modern life. 过时的   |    |  
+|  personalize  | ˈpɜːrsənəlaɪz   | If an object is personalized, it is marked with the name or initials of its owner. 标上主人名字  |    |  
+|  pertain  |pərˈteɪn    |If one thing pertains to another, it relates, belongs, or applies to it. 与…相关; 属于; 适于   |    |  
+|  primal  |  praɪm(ə)l  | Primal is used to describe something that relates to the origins of things or that is very basic. 原始的  |    |  
+|  psychiatric  | ˌsaɪkiˈætrɪk   | Psychiatric means relating to psychiatry. 治疗精神病的  |    |  
+|  equate  | ɪˈkweɪt   |  If you equate one thing with another, or if you say that one thing equates with another, you believe that they are strongly connected. 将…等同于; 等同于 |    |  
+|   inhale |  ɪnˈheɪl  | When you inhale, you breathe in. When you inhale something such as smoke, you take it into your lungs when you breathe in. 吸入; 吸气  |    |  
+|   invoke | ɪnˈvoʊk   | If you invoke a law, you state that you are taking a particular action because that law allows or tells you to. 求助于 (法律) If you invoke something such as a principle, a saying, or a famous person, you refer to them in order to support your argument. 援引 |    |  
+|  lunar  |ˈluːnər    | Lunar means relating to the moon. 月球的  |    |  
+| novelty   | ˈnɑːv(ə)lti   | Novelty is the quality of being different, new, and unusual. 新奇  |    |  
+|   parcel | pɑːrs(ə)l   | A parcel is something wrapped in paper, in a bag or large envelope, or in a box, usually so that it can be sent to someone by mail. 包裹; 邮包  |    |  
+|  profile  | ˈproʊfaɪl   | Your profile is the outline of your face as it is seen when someone is looking at you from the side. (面部的) 侧面轮廓  |    |  
+|  vivacious  | vɪˈveɪʃəs   |  If you describe someone, usually a woman, as vivacious, you mean that they are lively, exciting, and attractive. (常指女性) 活泼的 |    |  
+|   winding | ˈwaɪndɪŋ   | curving; sinuous 蜿蜒曲折的  |    |  
+|  electromagnetic  |  ɪˌlektroʊmæɡˈnetɪk  | Electromagnetic is used to describe the electrical and magnetic forces or effects produced by an electric current. 电磁的  |    |  
+|   electron | ɪˈlektrɑːn   |An electron is a tiny particle of matter that is smaller than an atom and has a negative electrical charge. 电子   |    |  
+|  glide  |  ɡlaɪd  | If you glide somewhere, you move silently and in a smooth and effortless way. 滑行  |    |  
+|  ingenious  | ɪnˈdʒiːniəs   | Something that is ingenious is very clever and involves new ideas, methods, or equipment. 灵巧的; 新颖的  |    |  
+|  innovation  |  ɪnəˈveɪʃ(ə)n  |  An innovation is a new thing or a new method of doing something. 新事物; 新方法 |    |  
+|  inclusion  | ɪnˈkluːʒ(ə)n   |  Inclusion is the act of making a person or thing part of a group or collection. 包括 |    |  
+|  intermediate  | ˌɪntərˈmiːdiət   |  An intermediate stage, level, or position is one that occurs between two other stages, levels, or positions. 中间的 |    |  
+|  intermittent  |  ˌɪntərˈmɪtənt  | Something that is intermittent happens occasionally rather than continuously. 断断续续的  |    |  
+|   fluctuate | ˈflʌktʃueɪt   | If something fluctuates, it changes a lot in an irregular way. 波动  |    |  
+|  fro  |  froʊ  | 来来往往；往返  |    |  
+|  reverse  | rɪˈvɜːrs   | When someone or something reverses a decision, policy, or trend, they change it to the opposite decision, policy, or trend. 使 (决定、政策、趋势) 转向; 逆转  |    |  
+| swarm   | swɔːrm   | A swarm of bees or other insects is a large group of them flying together. 大群 (蜜蜂等昆虫)  |    |  
+|  texture  | ˈtekstʃər   | The texture of something, especially food or soil, is its structure, for example, whether it is light with lots of holes, or very heavy and solid. (尤指食品、土壤等的) 结构  |    |  
+| tickle   | ˈtɪk(ə)l   | When you tickle someone, you move your fingers lightly over a sensitive part of their body, often in order to make them laugh. 胳肢  |    |  
+|  vibrant  | ˈvaɪbrənt   | Someone or something that is vibrant is full of life, energy, and enthusiasm. 充满活力的  |    |  
+|  mentor  | ˈmentər   | A person's mentor is someone who gives them help and advice over a period of time, especially help and advice related to their job. 导师  |    |  
+|  photosynthesis  | ˌfoʊtoʊˈsɪnθəsɪs   | Photosynthesis is the way that green plants make their food using sunlight. 光合作用; 光能合成  |    |  
+|  pollen  | ˈpɑːlən   | Pollen is a fine powder produced by flowers. It fertilizes other flowers of the same species so that they produce seeds. 花粉  |    |  
+|  regain  | rɪˈɡeɪn   | If you regain something that you have lost, you get it back again. 重新获得  |    |  
+|  coward  | ˈkaʊərd   | If you call someone a coward, you disapprove of them because they are easily frightened and avoid dangerous or difficult situations. 胆小鬼  |    |  
+|  firsthand  |ˌfɜːrstˈhænd    | 直接地  |    |  
+|  earnest  | ˈɜːrnɪst   | If something is done or happens in earnest, it happens to a much greater extent and more seriously than before. 严肃地; 正式地  |    |  
+|  ethnic  |  ˈeθnɪk  | Ethnic means connected with or relating to different racial or cultural groups of people. 种族的  |    |  
