@@ -1,4 +1,6 @@
 - [Home](/)
+- [WSL](wsl)
+- [Git Learning Note](git)
 - [Git Learning Note](git)
 - [Docker Learning Note](docker)
 - [Kubernate Learning Note](kubernate)
