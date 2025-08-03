@@ -1,5 +1,5 @@
 - [Home](/)
-- [WSL](wsl)
+- [WSL Learning Note](wsl)
 - [Git Learning Note](git)
 - [Git Learning Note](git)
 - [Docker Learning Note](docker)
@@ -11,3 +11,4 @@
 - [RocketMQ Learning Note](rocketMQ)
 - [English Suffix Learning Note](suffix)
 - [English IELTS Word Learning Note](ielts)
+- [English IELTS Sentence Learning Note](sentence)
