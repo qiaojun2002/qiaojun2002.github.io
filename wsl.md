@@ -1,7 +1,7 @@
 ## WSL是什么
 Windows Subsystem for Linux
 
-## 安装前提：
+## 安装前提
 1.  开启cpu虚拟化-> 任务管理器 -> 性能 -> CPU
    检查CPU虚拟化已经开启， 没有开启的情况下，进入BIOS开启
 2.  开启两个windows功能
