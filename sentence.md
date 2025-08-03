@@ -12,9 +12,9 @@ what would be 可以替换为：
 
 
 perfect	可以替换为：
-- 	ideal
-- 	preferred
-- 	worst
+- ideal
+- preferred
+- worst
 
 
 ***
