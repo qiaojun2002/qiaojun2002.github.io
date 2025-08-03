@@ -9,12 +9,14 @@ What would be什么会是，什么可能是，比what is 意思更地道
 what would be 可以替换为：
 - who would be
 - where would be
-		
+
+
 perfect	可以替换为：
 - 	ideal
 - 	preferred
 - 	worst
-	
+
+
 ***
 			
 			
@@ -28,7 +30,7 @@ I mean your ideal day
 ***
 
 ```
-A day that you wnet to be that night and you just thought, 
+A day that you wnet to bed that night and you just thought, 
 that was the most incredeble day!!
 ```
 
@@ -41,7 +43,7 @@ the most incredeble day可以替换为：
 			
 ## Day 2
 ```
-That is how I want most of my days and my list to be just like that!!
+That is how I want most of my days and my life to be just like that!!
 我希望我大部分的日子和生命都能那样度过
 ```
 
@@ -63,7 +65,7 @@ want 可以替换为：
 ***
 
 ```
-what would that perfect day be like for you
+What would that perfect day be like for you?
 这样完美的一天对你来说是什么样的
 ```
 
