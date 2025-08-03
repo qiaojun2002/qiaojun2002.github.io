@@ -1,7 +1,6 @@
 - [Home](/)
 - [WSL Learning Note](wsl)
 - [Git Learning Note](git)
-- [Git Learning Note](git)
 - [Docker Learning Note](docker)
 - [Kubernate Learning Note](kubernate)
 - [Java Thread Learning Note](thread)
