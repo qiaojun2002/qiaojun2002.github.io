@@ -146,8 +146,8 @@ Nobody can affect whether or not you are gonna have a good day, but yourself and
 没有人能影响你是否过的开心，只有你自己和你的思想。
 ```
 
-> no body can..., but 没有人能， 只有
-> no one can..., but
+> no body can..., but 没有人能， 只有<br>
+> no one can..., but<br>
 > Nothing can..., but
 
 affect, 影响

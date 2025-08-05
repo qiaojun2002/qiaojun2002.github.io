@@ -19,6 +19,46 @@ Alibaba 开源的一个消息中间件
 
 
 ## 安装
+依赖JAVA 环境
+[下载](https://rocketmq.apache.org/download/)
+
+```
+java -version
+
+vi bin/runserver.sh
+#修改choose_gc_options方法，设置-Xmx1g -Xms1g -Xmn 512m
+ 
+vi bin/runbroker.sh
+ 设置-Xmx1g -Xms1g
+ 
+ nohub bin/mqnamesrv.sh &
+  
+  #check nohub.log 
+  #The name server boot success
+  
+  vi ~/.bash_profile
+  
+  export NAMESRV_ADDR='localhost:9876'
+  
+  source ~/.bash_profile
+  
+  nohub bin/mqbroker.sh &
+  
+  #check nohub.log
+  #The broker  boot success
+  
+  jps
+  9122 NamesrvStartup
+  9123 BrokerStartup
+  
+  #send message
+  bin/tools.sh org.apache.rocketmq.example.quickstart.Producer
+  
+  #consume message
+  bin/tools.sh org.apache.rocketmq.example.quickstart.Consumer
+  
+```
+
 
 ## 搭建JAVA客户端
 
