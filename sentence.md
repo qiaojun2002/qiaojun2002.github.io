@@ -100,7 +100,7 @@ She's thinking whether of not to quit her job.
 *** 
 
 ```
-All of us, we are the ones that define if negative impacts are gonna have a good or bad impacts on your life.
+All of us, we are the ones that define if negative impacts are gonna have a good or bad impact on your life.
 我们所有人，负面的东西对我们产生怎么样的影响，取决于我们自己。
 ```
 
@@ -117,3 +117,46 @@ gonna 是going to 的缩写
 
 wanna = want to
 gotta = got to
+
+## Day 4
+
+```
+It's your mentality, your mind is a battleground.
+这是你的心态，你的思想是战场
+```
+
+mentality 强调脑子里的想法，近义词：
+- perspective, 看问题的角度
+- attitude，看待事情的态度
+
+It's your negative mantality that's blocking you from achieving your maximum potential / becoming your best side.
+是你的负面心态阻止了你成为更好的自己。
+
+虽然它们是近义词，但具体语境下不能互换。
+Whether our attitude is positive or negative depends on our perspective of seeing things.
+我们的态度是积极的还是消极的取决于我们看待事情的角度。
+
+We have to constantly fight the negative voices in our heads.
+我们要不断的与脑中消极的声音作斗争。
+
+***
+
+```
+Nobody can affect whether or not you are gonna have a good day, but yourself and your own mind.
+没有人能影响你是否过的开心，只有你自己和你的思想。
+```
+
+> no body can..., but 没有人能， 只有
+> no one can..., but
+> Nothing can..., but
+
+affect, 影响
+- change 改变
+- impact 影响
+- influence 影响
+
+No one can change your attitude but yourself.
+没人能改变你的态度，除了你自己
+
+没有任何事情可以阻止你达到你的目标，除非你自己放弃
+Nothing can stop you from achieving your goals, unless you give up yourself. 
