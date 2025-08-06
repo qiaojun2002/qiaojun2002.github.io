@@ -1,3 +1,5 @@
+# 重点词汇 语法拓展
+
 ## Day 1
 ```
 What would be your perfect day?
@@ -160,3 +162,48 @@ No one can change your attitude but yourself.
 
 没有任何事情可以阻止你达到你的目标，除非你自己放弃
 Nothing can stop you from achieving your goals, unless you give up yourself. 
+
+## Day 5
+
+```
+You must come up with a morning routine that you do every single morning or at least more morning that not.
+早晨你要有一个惯例的事项，每天都要做，至少做的时候要比不做的多。
+```
+
+must ：先提条件<br>
+need（需要）： basic needs，比如生存需求<br>
+should（应该）<br>
+
+If you want to apply for masters in China, then you `must` study hard.<br>
+你想考研究生，那你`必须`要好好学习。
+
+We `need` to drink water for survival.<br>
+We `should` drink around 1-2L of water every day.<br>
+为了生存，我们`需要`喝水。
+我们每天`要`喝大约1到2L的水。
+
+***
+
+ ```
+ That puts you in control of yourself and in controle of your day.
+ 这样可以让你更好的掌控自己和自己的一天。
+ 
+ ```
+ 
+> I wish i can control, 我希望我能掌控， 无力感
+> I want to have more control in, 我想掌控更多
+> I am in control of ... 我掌握，我掌控 **非常飒**
+
+I want to have more control in decision making. 我想更能自主做决定。<br>
+I  am in control of my emotions. 我的情绪由我控制。
+
+***
+
+ ```
+ This is what I do and I can not explain the power that I get.
+ 这就是我所做的，我无法解释由此获得的力量。
+ ```
+ 
+I can not explain 和 I can't tell you.. 同义， **棒到不行**
+I can't tell you how great the hamburger tasted. 你别提那汉堡有多好吃！
+I can't explain the feelings i get when I see him smiling at me. 我无法形容，当我看到他对我微笑时的感觉！
