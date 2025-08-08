@@ -31,7 +31,7 @@ vi bin/runserver.sh
 vi bin/runbroker.sh
  设置-Xmx1g -Xms1g
  
- nohub bin/mqnamesrv.sh &
+ nohup sh bin/mqnamesrv.sh &
   
   #check nohub.log 
   #The name server boot success
@@ -60,9 +60,29 @@ vi bin/runbroker.sh
 ```
 
 
-## 搭建JAVA客户端
 
 ## 搭建Dashboard
+[下载](https://rocketmq.apache.org/download/)，拉到下载页面最下方，下载RocketMQ Dashboard
+
+需要我们自己编译，使用maven构建
+```
+mvn clean package -Dmaven.test.skip=true
+```
+
+在源码的target目录下生成了可运行的jar包rocketmq-dashboard-1.0.1-SNAPSHOT.jar
+接下来我们在jar包所在的目录下创建一个application.yml配置文件
+```yaml
+rocketmq:
+  config:
+    namesrvAddrs:
+	  - 127.0.0.1:9876
+```
+主要时指定nameserver的地址
+接下来通过java指令运行这个jar
+
+```shell
+java -jar rocketmq-dashboard-1.0.1-SNAPSHOT.jar
+```
 
 ## 升级分布式集群
 

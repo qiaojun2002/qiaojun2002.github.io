@@ -190,8 +190,8 @@ We `should` drink around 1-2L of water every day.<br>
  
  ```
  
-> I wish i can control, 我希望我能掌控， 无力感
-> I want to have more control in, 我想掌控更多
+> I wish i can control, 我希望我能掌控， 无力感<br>
+> I want to have more control in, 我想掌控更多<br>
 > I am in control of ... 我掌握，我掌控 **非常飒**
 
 I want to have more control in decision making. 我想更能自主做决定。<br>
@@ -204,6 +204,6 @@ I  am in control of my emotions. 我的情绪由我控制。
  这就是我所做的，我无法解释由此获得的力量。
  ```
  
-I can not explain 和 I can't tell you.. 同义， **棒到不行**
-I can't tell you how great the hamburger tasted. 你别提那汉堡有多好吃！
+I can not explain 和 I can't tell you.. 同义， **棒到不行**<br>
+I can't tell you how great the hamburger tasted. 你别提那汉堡有多好吃！<br>
 I can't explain the feelings i get when I see him smiling at me. 我无法形容，当我看到他对我微笑时的感觉！
