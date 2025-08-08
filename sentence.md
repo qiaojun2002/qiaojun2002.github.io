@@ -195,7 +195,7 @@ We `should` drink around 1-2L of water every day.<br>
 > I am in control of ... 我掌握，我掌控 **非常飒**
 
 I want to have more control in decision making. 我想更能自主做决定。<br>
-I  am in control of my emotions. 我的情绪由我控制。
+I am in control of my emotions. 我的情绪由我控制。
 
 ***
 
@@ -207,3 +207,40 @@ I  am in control of my emotions. 我的情绪由我控制。
 I can not explain 和 I can't tell you.. 同义， **棒到不行**<br>
 I can't tell you how great the hamburger tasted. 你别提那汉堡有多好吃！<br>
 I can't explain the feelings i get when I see him smiling at me. 我无法形容，当我看到他对我微笑时的感觉！
+
+## Day 6
+
+```
+From starting my day off and being bigger than my excuses and being in control.
+从我第一天开始，超越借口，掌控一切。
+```
+
+being bigger than, 虚拟的大
+> I'm more than, 更常用
+I'm more than just looks. 我不止是有外表。
+I'm more than just a wife. 我不止是一个老婆。
+
+***
+```
+First and foremost, wake up on time.
+首先的首先，要准时起床。
+```
+
+**First and foremost**，最重要的
+**First, the most important thing is**, 和上局同义
+
+First and foremost，I don't think anything is a failure unless I give up tring.
+我认为没有东西算是失败除非我自己放弃了。
+
+**on time**, 准时 按时 
+**in time**， 刚刚好，及时
+You are just in time for the family movie night, Let's go watch a movie together.
+
+***
+```
+When that alarm goes off, get your butt out of bed.
+闹钟一响，马上起床。
+```
+
+**goes off**, 强调闹钟响的那一瞬间
+**ring**常用手机响了
