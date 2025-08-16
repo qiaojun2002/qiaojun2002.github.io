@@ -20,7 +20,7 @@ Here are some scenarios where JSON Web Tokens are useful:
 
 
 ### 基于JWT认证
-![截图2](jwt-check.png)
+![截图2](pic/jwt-check.png)
 1. 认证流程
 
 	- 前端通过Web表单将自己的用户名和密码发送到后端的接口。这一过程一般是一个HTTP POST请求。建议的方式是通过SSL加密的传输(https协议)，从而避免敏感信息被嗅探。
