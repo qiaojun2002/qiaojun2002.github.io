@@ -217,7 +217,8 @@ From starting my day off and being bigger than my excuses and being in control.
 
 being bigger than, 虚拟的大
 > I'm more than, 更常用
-I'm more than just looks. 我不止是有外表。
+
+I'm more than just looks. 我不止是有外表。<br>
 I'm more than just a wife. 我不止是一个老婆。
 
 ***

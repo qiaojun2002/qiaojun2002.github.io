@@ -1,4 +1,5 @@
 ## MQ简介
+[学习视频](https://www.bilibili.com/video/BV1jSKAzME6E?spm_id_from=333.788.videopod.episodes&vd_source=46bda19e04eb9188c7f6a377526437bd&p=3)<br>
 MQ: Message Queue， 消息队列。
 MQ的作用主要包括以下三个方面：
 - 异步
