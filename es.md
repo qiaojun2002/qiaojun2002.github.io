@@ -31,4 +31,72 @@
 [下载](https://www.elastic.co/cn/downloads/past-releases)
 
 ## 索引
-[官网](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/index.html)
+
+**创建**
+```
+
+PUT /user
+
+GET /user
+
+PUT /student index
+{
+	"settings":{
+		"number of shards": 1,
+		"number of replicas": 1
+	},
+	"mappings":{
+		"properties"{
+			"name":{
+				"type" :"text"
+			},
+			"age":{
+				type":"integer
+			},
+			"enrolled date":{
+				"type": "date"
+			}
+		}
+	}
+}
+
+
+GET /student index
+```
+
+**查询**
+```
+GET /employee/_doc/1
+
+GET /employee/_mget{
+	"ids": ["1","2","3"]
+}
+
+```
+
+更多示例参考官网教程， [官网](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/index.html)
+## 文档
+
+**创建**
+```
+
+PUT /employee/_doc/1
+{
+	"name":"张三”,
+	"sex": 1,
+	"age": 25,
+	"address":"广州天河公园",
+	"remark":"java developer"
+}
+
+POST /employee/_doc
+{
+	"name":"李四”,
+	"sex": 1,
+	"age": 25,
+	"address":"广州天河公园",
+	"remark":"java developer"
+}
+
+
+```
