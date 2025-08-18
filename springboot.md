@@ -141,7 +141,6 @@ public class MultiHttpSecurityConfig {
 
 At the highest conceptual level, Shiro’s architecture has 3 primary concepts: the `Subject`, `SecurityManager` and `Realms`. The following diagram is a high-level overview of how these components interact, and we’ll cover each concept below:
 
-![](C:\Users\qiaoj\Pictures\ShiroBasicArchitecture.png)
 
 - **Subject**: As we’ve mentioned in our [Tutorial](http://shiro.apache.org/tutorial.html), the `Subject` is essentially a security specific ‘view’ of the the currently executing user. Whereas the word ‘User’ often implies a human being, a `Subject` can be a person, but it could also represent a 3rd-party service, daemon account, cron job, or anything similar - basically anything that is currently interacting with the software.
 

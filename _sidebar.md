@@ -1,4 +1,5 @@
 - [Home](/)
+- [ElasticSearch Learning Note](es)
 - [WSL Learning Note](wsl)
 - [Git Learning Note](git)
 - [JWT Learning Note](jwt)
