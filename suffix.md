@@ -21,7 +21,12 @@
 ## 后缀
 | 后缀 | 解释 | 示例 | 
 | -- | -- |-- |
-| et let | 小 |
+| et let el | 小 |
+| al | 形容词 |
+| ify | 动词  使|
+| ule | 名词 |
+| est | 形容词 |
+
 
 ## 词根
 | 词根 | 解释 | 示例 | 
@@ -262,3 +267,19 @@
 |   | | option 选择 |
 | semble simil simul   | same |  |
 |  voc |喊，声音 |  |
+| mod  | 模式 尺度  | modal 模式的    |
+|   | | model 模型 模特|
+|   | | mode 模式 形式 |
+|   | | modify 修改 调整 |
+|   | | module 模块 单元 |
+|   | | modest 谦虚的 适度的|
+| radio  | 射线  | radio  无线电 收音机   |
+|   | | ray 射线 光线|
+|   | | radiate 辐射 发光 |
+|   | | radiation 辐射 放射物 |
+|   | | radium  镭 |
+|   | | radius 半径 |
+|   | | radiant 辐射的 容光焕发的 光彩照人的 |
+| hibit  | 拿  | exhibit  展览 展出   |
+|   | | prohibit 禁止 阻止|
+|   | | inhibit 抑制 阻止 |

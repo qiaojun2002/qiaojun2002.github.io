@@ -1,6 +1,9 @@
-## 安装
+## 环境准备
+### ES安装 
 下载压缩包解压缩，并执行bin目录下的elasticsearch.bat<br>
 [下载](https://www.elastic.co/cn/downloads/past-releases)
+
+安装完成后，可以使用下列CAT命令验证ES
 
 **CAT API** 
 
@@ -26,11 +29,21 @@
 
 运行本地ES后，执行[示例](http://localhost:9200/_cat/health?v)
 
-## 客户端Kibana
+### 客户端Kibana
 下载压缩包解压缩，并执行bin目录下的kibana.bat<br>
-[下载](https://www.elastic.co/cn/downloads/past-releases)
+[下载](https://www.elastic.co/downloads/past-releases/kibana-7-17-4)
+> **需要保证kibana 版本与ES版本一致**
 
-## 索引
+
+<br>
+<br>
+
+
+## 核心概念
+
+### 索引 Index
+一个索引就是一个拥有几分相似特征的文档的集合。比如说，你可以有一个商品数据的索引，一个订单数据的索引，还有一个用户数据的索引。一个索引由一个名字来标识(必须全部是小写字母的)，并且当我们要对这个索引中的文档进行索引、搜索、更新和删除的时候，都要使用到这个名字。
+
 
 **创建**
 ```
@@ -75,7 +88,12 @@ GET /employee/_mget{
 ```
 
 更多示例参考官网教程， [官网](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/index.html)
-## 文档
+
+### 映射 Mapping
+映射是定义一个文档和它所包含的字段如何被存储和索引的过程。在默认配置下，ES可以根据插入的数据 自动地创建mapping，也可以手动创建mapping。mapping中主要包括字段名字段类型等
+
+### 文档
+文档是索引中存储的一条条数据。轻量级的JSON格式数据来表示。
 
 **创建**
 ```
