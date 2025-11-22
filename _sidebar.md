@@ -15,3 +15,4 @@
 - [English IELTS Word Learning Note](ielts)
 - [English IELTS Sentence Learning Note](sentence)
 - [WEB3 Learning Note](WEB3)
+- [Manager skill Learning Note](manager_skill)

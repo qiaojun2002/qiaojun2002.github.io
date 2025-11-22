@@ -1,5 +1,5 @@
-## WEB3入门
-### 比特币原理
+
+### 比特币
 
 1. 去中心化
 2. UTXO unspent transaction output: from, to, amount
@@ -17,6 +17,7 @@
 10. UTXO模型支持并发处理，两个账户同时给一个目标账户转账
 
 ### 以太坊
+![截图3](pic/etf.png) 
 以太坊的问题：
 1. 处理速度慢
 2. 为什么慢： 不可能三角， 去中心化，安全性，可扩展性（高性能）
@@ -24,7 +25,7 @@
 4. layer2实现方式：OP rollup 乐观卷积, ZK rollup 零知识证明卷积
 5. solidity开发
 
-![截图3](pic/etf.png) 
+
 
 
 ### 智能合约
